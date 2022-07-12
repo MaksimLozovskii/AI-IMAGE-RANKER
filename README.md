@@ -31,6 +31,8 @@ In order to start a ticket, head over to the issues tab of the repository, and h
 --  **Help wanted** - usually comes alongside other labels, means that the person/people assigned to this ticket is/are not able to complete the ticket on their own; 
 --  **Beta testing** - meaning the ticket is currenly being tested in a controlled environemnt by other members of the repository, this is the last stage before release.
 
+{EXAMPLE PHOTO}
+
 The development process revolves around the project kanban board in which the people responsible for the ticket move it around different stages, this way other people can see the progress.
 The kanban board for the project can be accessed via the project tab -> projects (classic) -> "name of the board"
 
@@ -39,18 +41,70 @@ There you will see multiple tabs, which correspond to the labels that were discu
 As the ticket development progresses, the ticket moves from:
 **not started -> in development -> Awaiting code review -> beta testing -> Released and monitored**
 The "bugs present" column is primarily used as a way for senior members to show that there are bugs present in the code that they reviewed.
+{EXAMPLE PHOTO}
 
 ### Coding and Testing
-- File structure
---  Logic files
---  Design files
-- Dev server
---  Starting up a flask development server
+**File structure**
+CREATE a folder in a convinient place on your computer and give it the name of the ticket
+{ EXAMPLE PHOTO }
+OPEN the folder, right click inside it and click on "Git Bash Here"
+{ EXAMPLE PHOTO }
+
+COMMANDS (copy and paste into git bash and press enter)
+```
+git init; 
+git remote add origin https://github.com/MaksimLozovskii/QLabHumanProgram; 
+mkdir logic; 
+mkdir design; 
+mkdir instruction; 
+mkdir tests; 
+cd instruction;
+mkdir templates;
+mkdir static;
+cd static;
+mkdir styles;
+mkdir scripts;
+mkdir img;
+```
+{EXAMPLE PHOTO}
+
+create app.py file
+Logic files
+{EXAMPLE PHOTO}
+
+Design files
+{EXAMPLE PHOTO}
+
+create new branch
+git checkout -b "ticket_name" 
+{EXAMPLE PHOTO}
+
+stage files
+git add .
+{EXAMPLE PHOTO}
+
+commit files
+git commit -m "Type message here"
+{EXAMPLE PHOTO}
+
+push files to the branch
+git push origin "ticket name"
+{EXAMPLE PHOTO}
+
+Dev server
 ```bash
 flask run -p 3000
 ```
-- How to unit test the code with selenium
---  Writing selenium tests
+{EXAMPLE PHOTO}
+
+Test Case document
+{EXAMPLE PHOTO}
+
+Writing selenium tests
+{EXAMPLE PHOTO}
+
+How to unit test the code with selenium
+{EXAMPLE PHOTO}
 
 ### Integration Testing and Finishing a ticket
 - How to integration test a ticket
