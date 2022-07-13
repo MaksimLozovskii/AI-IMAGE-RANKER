@@ -147,6 +147,10 @@ _The "ticket name" in this case will be the name of the branch_
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/git-push.png?raw=true)
 
+**Now you can view your own branch on github under "switch branches"**
+
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/find-branch.png?raw=true)
+
 
 **DOCUMENTATION**
 
