@@ -89,22 +89,27 @@ You should have the following structure
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/folder-structure.png?raw=true)
 
 create app.py file within the instruction folder
+
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/create-app.png?raw=true)
 
 create new branch
 git checkout -b "ticket_name" 
+
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/new-branch.png?raw=true)
 
 stage files
 git add .
+
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/git-add.png?raw=true)
 
 commit files
 git commit -m "Type message here"
+
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/first-commit.png?raw=true)
 
 push files to the branch
 git push origin "ticket name"
+
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/git-push.png?raw=true)
 
 
