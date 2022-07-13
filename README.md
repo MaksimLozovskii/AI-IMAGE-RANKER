@@ -59,61 +59,81 @@ OPEN the folder, right click inside it and click on "Git Bash Here"
 ```
 git init; 
 git remote add origin https://github.com/MaksimLozovskii/QLabHumanProgram; 
+touch readme.md;
 mkdir logic; 
-mkdir design; 
+cd logic;
+touch logic.docx;
+cd ..;
+mkdir design;
+cd design;
+touch design.docx;
+cd ..;
 mkdir instruction; 
 mkdir tests; 
 cd instruction;
+touch app.py;
 mkdir templates;
 mkdir static;
 cd static;
 mkdir styles;
 mkdir scripts;
 mkdir img;
+cd ..;
+cd ..;
 ```
 You should have the following structure
 
 ```
 📦ticket_name
+ ┣ 📂.git
  ┣ 📂design
+ ┃ ┗ 📜design.docx
  ┣ 📂instruction
  ┃ ┣ 📂static
  ┃ ┃ ┣ 📂img
  ┃ ┃ ┣ 📂scripts
  ┃ ┃ ┗ 📂styles
- ┃ ┗ 📂templates
+ ┃ ┣ 📂templates
+ ┃ ┗ 📜app.py
  ┣ 📂logic
- ┗ 📂tests
+ ┃ ┗ 📜logic.docx
+ ┣ 📂tests
+ ┗ 📜readme.md
 ```
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/folder-structure.png?raw=true)
 
-create app.py file within the instruction folder
-
-![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/create-app.png?raw=true)
-
-create new branch
+**Create a new branch to keep your code separate from others**
+```
 git checkout -b "ticket_name" 
+```
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/new-branch.png?raw=true)
 
-stage files
+**Stage files before commit with:**
+```
 git add .
+```
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/git-add.png?raw=true)
 
-commit files
+**Commit the files with:**
+```
 git commit -m "Type message here"
+```
 
-![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/first-commit.png?raw=true)
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/git-commit.png?raw=true)
 
-push files to the branch
+**Push your files to the new branch**
+```
 git push origin "ticket name"
+```
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/git-push.png?raw=true)
 
 
 **DOCUMENTATION**
+
 Logic files
 {EXAMPLE PHOTO}
 
