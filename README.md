@@ -52,8 +52,23 @@ The "bugs present" column is primarily used as a way for senior members to show 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/kanban-board.png?raw=true)
 
 ### First steps
+
+Go to the "Issues" tab and find a ticket to do, for example here is one which was just created and can be taken:
+{EXAMPLE IMAGE}
+
+Click on the ticket and under the assignees tab click on your github profile, this way you will assign yourself to the ticket;
+{EXAMPLE IMAGE}
+
+Then, under the "Labels" select the "In development" label and delete the "Not started" label. This way you will tell everyone that you have taken the ticken;
+
+Then, go the the project tab -> projects (classic) -> Human Instructions and drag your ticket to the "In development" column;
+{EXAMPLE IMAGE}
+
+Now you can start preparing the files and the development environment;
+
+
 **File structure**
-CREATE a folder in a convinient place on your computer and give it the name of the ticket, I made one on my desktop
+CREATE a folder in a convinient place on your computer and give it the name of the ticket (ticket name is before the ": Implement Human Instruction" in the issues tab), I made one on my desktop
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/create-folder.png?raw=true)
 
