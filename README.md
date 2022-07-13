@@ -31,7 +31,7 @@ In order to start a ticket, head over to the issues tab of the repository, and h
 --  **Help wanted** - usually comes alongside other labels, means that the person/people assigned to this ticket is/are not able to complete the ticket on their own; 
 --  **Beta testing** - meaning the ticket is currenly being tested in a controlled environemnt by other members of the repository, this is the last stage before release.
 
-{EXAMPLE PHOTO}
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/Labels.png?raw=true)
 
 The development process revolves around the project kanban board in which the people responsible for the ticket move it around different stages, this way other people can see the progress.
 The kanban board for the project can be accessed via the project tab -> projects (classic) -> "name of the board"
