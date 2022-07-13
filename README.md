@@ -24,7 +24,6 @@ In order to start a ticket, head over to the issues tab of the repository, and h
 - **Is the ticket complete?** The tickets with a green cicrle beside them are not yet complete
 - **Can I start this ticket?** You will see a user's avatar beside the ticket if it is assigned to someone else, you cannot assign yourself to a ticket without permission if it has already been started
 - **At what stage is this ticket?** There are 6 labels resembling progress at the moment: 
-- 
 --  **Not started** - meaning the ticket has not yet been started and is not assigned to anyone, you can take this ticket if you want; 
 
 --  **In development** - meaning the ticket is currently been developed by one or multiple members of the repository, you cannot work on this ticket unless the people assigned to it allow you to join;
