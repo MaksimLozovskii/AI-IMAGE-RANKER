@@ -36,21 +36,26 @@ In order to start a ticket, head over to the issues tab of the repository, and h
 The development process revolves around the project kanban board in which the people responsible for the ticket move it around different stages, this way other people can see the progress.
 The kanban board for the project can be accessed via the project tab -> projects (classic) -> "name of the board"
 
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/project.png?raw=true)
+
 There you will see multiple tabs, which correspond to the labels that were discussed earlier, when a new ticket is released, it automatically goes into the not started column and has a label "not started", this is an available ticket.
 
 As the ticket development progresses, the ticket moves from:
 **not started -> in development -> Awaiting code review -> beta testing -> Released and monitored**
 The "bugs present" column is primarily used as a way for senior members to show that there are bugs present in the code that they reviewed.
-{EXAMPLE PHOTO}
+
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/kanban-board.png?raw=true)
 
 ### Coding and Testing
 **File structure**
-CREATE a folder in a convinient place on your computer and give it the name of the ticket
-{ EXAMPLE PHOTO }
-OPEN the folder, right click inside it and click on "Git Bash Here"
-{ EXAMPLE PHOTO }
+CREATE a folder in a convinient place on your computer and give it the name of the ticket, I made one on my desktop
 
-COMMANDS (copy and paste into git bash and press enter)
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/create-folder.png?raw=true)
+
+OPEN the folder, right click inside it and click on "Git Bash Here"
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/open-gitbash.png?raw=true)
+
+**COMMANDS (copy and paste into git bash and press enter)**
 ```
 git init; 
 git remote add origin https://github.com/MaksimLozovskii/QLabHumanProgram; 
@@ -66,7 +71,11 @@ mkdir styles;
 mkdir scripts;
 mkdir img;
 ```
-{EXAMPLE PHOTO}
+You should have the following structure
+
+{STRUCTURE}
+
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/folder-structure.png?raw=true)
 
 create app.py file
 Logic files
