@@ -103,12 +103,13 @@ You should have the following structure
  ┣ 📂logic
  ┃ ┗ 📜logic.docx
  ┣ 📂tests
- ┗ 📜readme.md
+ ┗ 📜README.md
 ```
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/folder-structure.png?raw=true)
 
 Now, lets edit your README.md file
+
 
 **Open README.md with VS code and paste this in:**
 ```
