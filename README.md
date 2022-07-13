@@ -108,6 +108,11 @@ You should have the following structure
 git checkout -b "ticket_name" 
 ```
 
+**For exmaple:**
+```
+git checkout -b ticket_name
+```
+
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/new-branch.png?raw=true)
 
 **Stage files before commit with:**
@@ -122,12 +127,23 @@ git add .
 git commit -m "Type message here"
 ```
 
+**For exmaple:**
+```
+git commit -m "New Commit"
+```
+
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/git-commit.png?raw=true)
 
 **Push your files to the new branch**
 ```
 git push origin "ticket name"
 ```
+
+**For exmaple:**
+```
+git push origin ticket_name
+```
+_The "ticket name" in this case will be the name of the branch_
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/git-push.png?raw=true)
 
