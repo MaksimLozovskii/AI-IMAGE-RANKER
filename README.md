@@ -151,6 +151,14 @@ _The "ticket name" in this case will be the name of the branch_
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/find-branch.png?raw=true)
 
+**Alternatively you can find your branch under the "branches" tab**
+
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/your-branch.png?raw=true)
+
+**Here is your branch**
+
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/your-repo.png?raw=true)
+
 
 **DOCUMENTATION**
 
