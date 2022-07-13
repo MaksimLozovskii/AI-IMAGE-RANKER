@@ -197,11 +197,7 @@ _The "ticket name" in this case will be the name of the branch_
 
 **DOCUMENTATION**
 
-Logic files
-
-{EXAMPLE PHOTO}
-
-Design files
+UI Interaction
 
 {EXAMPLE PHOTO}
 
