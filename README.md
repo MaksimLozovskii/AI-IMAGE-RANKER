@@ -108,6 +108,14 @@ You should have the following structure
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/folder-structure.png?raw=true)
 
+Now, lets edit your README.md file
+
+**Open README.md with VS code and paste this in:**
+```
+
+```
+
+
 **Create a new branch to keep your code separate from others**
 ```
 git checkout -b "ticket_name" 
@@ -163,9 +171,6 @@ _The "ticket name" in this case will be the name of the branch_
 **Here is your branch**
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/your-repo.png?raw=true)
-
-
-Now, lets edit your readme.md file
 
 
 **DOCUMENTATION**
