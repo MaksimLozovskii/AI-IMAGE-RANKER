@@ -160,15 +160,21 @@ _The "ticket name" in this case will be the name of the branch_
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/your-repo.png?raw=true)
 
 
+Now, lets edit your readme.md file
+
+
 **DOCUMENTATION**
 
 Logic files
+
 {EXAMPLE PHOTO}
 
 Design files
+
 {EXAMPLE PHOTO}
 
 Test Case document
+
 {EXAMPLE PHOTO}
 
 **CODING LOCALLY**
@@ -177,16 +183,21 @@ Dev server
 ```bash
 flask run -p 3000
 ```
+
 {EXAMPLE PHOTO}
 
 **TESTING LOCALLY**
 
 Writing selenium tests
+
 {EXAMPLE PHOTO}
 
 How to unit test the code with selenium
+
 {EXAMPLE PHOTO}
 
 ### Integration Testing and Finishing a ticket
-- How to integration test a ticket
-- How to integrate
+How to integration test a ticket
+{EXAMPLE PHOTO}
+How to integrate
+{EXAMPLE PHOTO}
