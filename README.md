@@ -113,8 +113,14 @@ Now, lets edit your README.md file
 
 **Open README.md with VS code and paste this in:**
 ```
+# Branch for "ticket name"
 
+**Assignee - "Change to your name"**
 ```
+
+Change "ticket name" to the name of the ticket you assigned yourself
+
+Change "change to your name" to the your github nickname
 
 
 **Create a new branch to keep your code separate from others**
