@@ -64,7 +64,7 @@ OPEN the folder, right click inside it and click on "Git Bash Here"
 ```
 git init; 
 git remote add origin https://github.com/MaksimLozovskii/QLabHumanProgram; 
-touch readme.md;
+touch README.md;
 mkdir logic; 
 cd logic;
 touch logic.docx;
