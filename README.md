@@ -46,7 +46,7 @@ The "bugs present" column is primarily used as a way for senior members to show 
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/kanban-board.png?raw=true)
 
-### Coding and Testing
+### First steps
 **File structure**
 CREATE a folder in a convinient place on your computer and give it the name of the ticket, I made one on my desktop
 
@@ -73,32 +73,52 @@ mkdir img;
 ```
 You should have the following structure
 
-{STRUCTURE}
+```
+📦ticket_name
+ ┣ 📂design
+ ┣ 📂instruction
+ ┃ ┣ 📂static
+ ┃ ┃ ┣ 📂img
+ ┃ ┃ ┣ 📂scripts
+ ┃ ┃ ┗ 📂styles
+ ┃ ┗ 📂templates
+ ┣ 📂logic
+ ┗ 📂tests
+```
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/folder-structure.png?raw=true)
 
-create app.py file
+create app.py file within the instruction folder
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/create-app.png?raw=true)
+
+create new branch
+git checkout -b "ticket_name" 
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/new-branch.png?raw=true)
+
+stage files
+git add .
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/git-add.png?raw=true)
+
+commit files
+git commit -m "Type message here"
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/first-commit.png?raw=true)
+
+push files to the branch
+git push origin "ticket name"
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/git-push.png?raw=true)
+
+
+**DOCUMENTATION**
 Logic files
 {EXAMPLE PHOTO}
 
 Design files
 {EXAMPLE PHOTO}
 
-create new branch
-git checkout -b "ticket_name" 
+Test Case document
 {EXAMPLE PHOTO}
 
-stage files
-git add .
-{EXAMPLE PHOTO}
-
-commit files
-git commit -m "Type message here"
-{EXAMPLE PHOTO}
-
-push files to the branch
-git push origin "ticket name"
-{EXAMPLE PHOTO}
+**CODING LOCALLY**
 
 Dev server
 ```bash
@@ -106,8 +126,7 @@ flask run -p 3000
 ```
 {EXAMPLE PHOTO}
 
-Test Case document
-{EXAMPLE PHOTO}
+**TESTING LOCALLY**
 
 Writing selenium tests
 {EXAMPLE PHOTO}
