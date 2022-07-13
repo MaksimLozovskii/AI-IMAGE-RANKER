@@ -216,20 +216,16 @@ Dev server
 flask run -p 3000
 ```
 
+**BEST CODING PRACTISES**
+Describing logic as comments
+Naming conventions
+
 {EXAMPLE PHOTO}
 
 **TESTING LOCALLY**
 
-Writing selenium tests
+Selenium tests
 
 {EXAMPLE PHOTO}
 
-How to unit test the code with selenium
-
-{EXAMPLE PHOTO}
-
-### Integration Testing and Finishing a ticket
-How to integration test a ticket
-{EXAMPLE PHOTO}
-How to integrate
-{EXAMPLE PHOTO}
+### INTEGRATION
