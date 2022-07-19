@@ -88,7 +88,6 @@ cd design-files;
 mkdir user-interaction-files-go-here;
 mkdir visual-design-files-go-here;
 cd ..;
-
 mkdir instruction-files; 
 cd instruction-files;
 touch app.py;
@@ -100,7 +99,6 @@ mkdir scripts;
 mkdir img;
 cd ..;
 cd ..;
-
 mkdir tests-scripts; 
 cd tests-scripts;
 mkdir test-plan-docs-go-here;
@@ -205,13 +203,12 @@ UI Interaction
 {EXAMPLE PHOTO}
 
 **Test Case document**
+
 It is vital that you define appropriate test cases with 100% coverage.
 
-We suggest that you use the following format:
+**We suggest that you use the following document:**
 
-Define data that will be processed
-
-Define system events using the following
+{DOWNLOAD LINK}
 
 **Single Event**
 
