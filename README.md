@@ -82,9 +82,15 @@ OPEN the folder, right click inside it and click on "Git Bash Here"
 git init; 
 git remote add origin https://github.com/MaksimLozovskii/QLabHumanProgram; 
 touch README.md;
-mkdir instruction; 
-mkdir tests; 
-cd instruction;
+
+mkdir design-files; 
+cd design-files;
+mkdir user-interaction-files-go-here;
+mkdir visual-design-files-go-here;
+cd ..;
+
+mkdir instruction-files; 
+cd instruction-files;
 touch app.py;
 mkdir templates;
 mkdir static;
@@ -94,20 +100,28 @@ mkdir scripts;
 mkdir img;
 cd ..;
 cd ..;
+
+mkdir tests-scripts; 
+cd tests-scripts;
+mkdir test-plan-docs-go-here;
+cd ..;
 ```
 You should have the following structure
 
 ```
 📦ticket_name
- ┣ 📂.git
- ┣ 📂instruction
+ ┣ 📂design-files
+ ┃ ┣ 📂User-interaction-files-go-here
+ ┃ ┗ 📂Visual-design-files-go-here
+ ┣ 📂instruction-files
  ┃ ┣ 📂static
  ┃ ┃ ┣ 📂img
  ┃ ┃ ┣ 📂scripts
  ┃ ┃ ┗ 📂styles
  ┃ ┣ 📂templates
  ┃ ┗ 📜app.py
- ┣ 📂tests
+ ┣ 📂test-scripts
+ ┃ ┗ 📂test-plan-docs-go-here
  ┗ 📜README.md
 ```
 
@@ -190,7 +204,7 @@ UI Interaction
 
 {EXAMPLE PHOTO}
 
-Test Case document
+**Test Case document**
 It is vital that you define appropriate test cases with 100% coverage.
 
 We suggest that you use the following format:
@@ -199,13 +213,15 @@ Define data that will be processed
 
 Define system events using the following
 
-Single Event
+**Single Event**
+
 if {user} |action / event| -> system should ___"
 
-Multiple events
+**Multiple events**
+
 if {user} |action / event| && |action / event | && n -> system should ___"
 
-For example : LOG-IN system :
+**For example : LOG-IN system : **
 
 - The data that will be processed within the system:
   - User input Username
@@ -234,13 +250,18 @@ For example : LOG-IN system :
 
 **CODING LOCALLY**
 
+**Opening project in VsCode**
+
 **BEST CODING PRACTISES**
 Describing logic as comments
 Naming conventions
+
 https://medium.com/swlh/how-to-better-name-your-functions-and-variables-e962a4ef335b
+
 https://devopedia.org/images/article/151/8127.1549366316.png
 
 {GOOD EXAMPLE PHOTO}
+
 {BAD EXAMPLE PHOTO}
 
 Dev server
