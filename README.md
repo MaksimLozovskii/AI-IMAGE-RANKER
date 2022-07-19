@@ -82,14 +82,6 @@ OPEN the folder, right click inside it and click on "Git Bash Here"
 git init; 
 git remote add origin https://github.com/MaksimLozovskii/QLabHumanProgram; 
 touch README.md;
-mkdir logic; 
-cd logic;
-touch logic.docx;
-cd ..;
-mkdir design;
-cd design;
-touch design.docx;
-cd ..;
 mkdir instruction; 
 mkdir tests; 
 cd instruction;
@@ -108,8 +100,6 @@ You should have the following structure
 ```
 📦ticket_name
  ┣ 📂.git
- ┣ 📂design
- ┃ ┗ 📜design.docx
  ┣ 📂instruction
  ┃ ┣ 📂static
  ┃ ┃ ┣ 📂img
@@ -117,8 +107,6 @@ You should have the following structure
  ┃ ┃ ┗ 📂styles
  ┃ ┣ 📂templates
  ┃ ┗ 📜app.py
- ┣ 📂logic
- ┃ ┗ 📜logic.docx
  ┣ 📂tests
  ┗ 📜README.md
 ```
@@ -126,7 +114,6 @@ You should have the following structure
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/folder-structure.png?raw=true)
 
 Now, lets edit your README.md file
-
 
 **Open README.md with VS code and paste this in:**
 ```
@@ -204,25 +191,72 @@ UI Interaction
 {EXAMPLE PHOTO}
 
 Test Case document
+It is vital that you define appropriate test cases with 100% coverage.
 
+We suggest that you use the following format:
+
+Define data that will be processed
+
+Define system events using the following
+
+Single Event
+if {user} |action / event| -> system should ___"
+
+Multiple events
+if {user} |action / event| && |action / event | && n -> system should ___"
+
+For example : LOG-IN system :
+
+- The data that will be processed within the system:
+  - User input Username
+  - User input Email
+  - User input Password
+  
+  - System stored Username
+  - System stored Email
+  - System stored Password
+  
+ - What the system should do
+   - if \user\ |Presses Submit button| && |Empty String in the username field| ->  the system should output an error message "Empty Username Field not allowed"
+   - if \user\ |Presses Submit button| && |Empty String in the email field| -> the system should output an error message "Empty Email Field not allowed"
+   - if \user\ |Presses Submit button| && |Empty String in the password field| -> the system should output an error message "Empty Password Field not allowed"
+ 
+   - if \user\ |Presses Submit button| && |String in Username field has incorrect format| -> the system should output an error message "Incorrect Username Format {suggest format}"
+   - if \user\ |Presses Submit button| && |String in Email field has incorrect format| -> the system should output an error message "Incorrect Email Format {suggest format}"
+   - if \user\ |Presses Submit button| && |String in Password field has incorrect format| -> the system should output an error message "Incorrect Passsord Format {suggest format}"
+   
+   - if \user\ |Presses Submit button| && |String in Username field has code| -> the system should output an error message "Incorrect Username Format {suggest format}"
+   - if \user\ |Presses Submit button| && |String in Email field has code| -> the system should output an error message "Incorrect Email Format {suggest format}"
+   - if \user\ |Presses Submit button| && |String in Password field has code| -> the system should output an error message "Incorrect Password Format {suggest format}"
+   
+  
 {EXAMPLE PHOTO}
 
 **CODING LOCALLY**
+
+**BEST CODING PRACTISES**
+Describing logic as comments
+Naming conventions
+https://medium.com/swlh/how-to-better-name-your-functions-and-variables-e962a4ef335b
+https://devopedia.org/images/article/151/8127.1549366316.png
+
+{GOOD EXAMPLE PHOTO}
+{BAD EXAMPLE PHOTO}
 
 Dev server
 ```bash
 flask run -p 3000
 ```
 
-**BEST CODING PRACTISES**
-Describing logic as comments
-Naming conventions
-
-{EXAMPLE PHOTO}
-
 **TESTING LOCALLY**
 
 Selenium tests
+It is impossible to talk about how to write tests for each situation as there are infinite amounts of them, instead you can be provided general information on how to test basic HTML components, which is all you really need to start:
+-HOW TO TEST BUTTONS
+-HOW TO TEST FORMS
+-HOW TO TEST USER INPUT
+-HOW TO TEST ELEMENTS APPEARING
+-HOW TO TEST SCRIPTS
 
 {EXAMPLE PHOTO}
 
