@@ -198,7 +198,17 @@ _The "ticket name" in this case will be the name of the branch_
 
 **DOCUMENTATION**
 
-UI Interaction
+**UI Interaction plan**
+
+How to make UI Interaction files
+Figma
+Make sure that the generated files are of the follwing : PNG / JPEG(JPG)
+How the user interacts with the UI
+Event based UI creation
+For example {IMAGE BEFORE EVENT} -> {IMAGE AFTER EVENT}
+
+Make the base layout
+Then add UI pages with different UI elements depending on the user input
 
 {EXAMPLE PHOTO}
 
