@@ -298,7 +298,7 @@ def download():           -> Function names should be descriptive
 def DownloadUsername()    -> Functions can't start with a capital letter
 ```
 
-- Variable names
+- Create variable names to describe their content
 
 ```
 ✅
@@ -315,15 +315,20 @@ VALUEX = 123
 vALUEX = 123
 ```
 
-https://medium.com/swlh/how-to-better-name-your-functions-and-variables-e962a4ef335b
+- Add comments, but be mindful about them
 
-https://devopedia.org/images/article/151/8127.1549366316.png
+Overkill
 
-{GOOD EXAMPLE PHOTO}
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/comment-overkill.png)
 
-{BAD EXAMPLE PHOTO}
+Just right
 
-`
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/comment-just-right.png)
+
+
+You don't need to describe every single line of code, but it is valueble to note down the logic of the application using comments
+
+You can then delete the comments after the code has been written to keep the file clean
 
 **TESTING LOCALLY WITH SELENIUM**
 
