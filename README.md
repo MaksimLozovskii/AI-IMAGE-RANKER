@@ -10,6 +10,50 @@ Work less - do more
 - **John Bustard**
 - **Maksim Lozovskii**
 
+Overview
+
+Section One
+- ✅ Download VS code
+- ✅ Download Git Bash
+- ✅ Download Python
+
+Section Two
+- ✅ Read about ticket lifecycle
+- ✅ Start a ticket
+- ✅ Create project folder on local machine with the name of your ticket
+- ✅ Download the test-template
+- ✅ Rename the test tempalte to the name of your ticket
+- ✅ Place the test template in the correct folder
+- ✅ Submit the files to your github branch
+
+Section Three
+- ✅ Mark out user interaction with the UI in figma
+- ✅ Save files as PNG or JPG/JPEG in the appropriate folder
+- ✅ Upload the files unto your github branch
+- ✅ Move your ticker from in development to awaiting UI review
+- ✅ Wait for review
+
+- ✅ Your UI was approved - you can start coding
+- OR
+- ❌ Yout UI was not approved, you need to fix it
+
+Section Four
+- ✅ Read about the best coding practises and naming conventions
+- ✅ Code up the solution on your local machine
+- ✅ Run a develeopment server for the solution on your local machine 
+- ✅ Test your solution with selenium
+- ✅ Submit your solution to your branch
+- ✅ Move your ticket from in development to awaiting code review
+- ✅ Wait for review
+
+- ✅ Your code was approved and is now being integrated
+- OR
+- ❌ Yout code was not approved, you need to fix it
+
+---
+
+# Section One
+
 ## Getting the right tools
 Tools are intergral, but should not take the entire attention span, the following tools offer all of the necessary functionality out of the box that will allow you to effectively develop human instructions.
 
@@ -18,6 +62,10 @@ Tools are intergral, but should not take the entire attention span, the followin
 | VsCode  | https://code.visualstudio.com/download | https://www.youtube.com/watch?v=MlIzFUI1QGA |
 | GitBash | https://git-scm.com/downloads | https://www.youtube.com/watch?v=pIbxvTsjqLw |
 | Python  | https://www.python.org/downloads/ | https://www.youtube.com/watch?v=i-MuSAwgwCU |
+
+
+
+# Section Two
 
 ### Ticket lifecycle or how to start a ticket
 In order to start a ticket, head over to the issues tab of the repository, and have a look over the tickets, when choosing a ticket, make sure to take into account the following:
@@ -196,7 +244,7 @@ _The "ticket name" in this case will be the name of the branch_
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/your-repo.png?raw=true)
 
 
-**DOCUMENTATION**
+# Section Three
 
 **UI Interaction plan**
 
@@ -224,7 +272,8 @@ Inside it, open the test-template.xlsx file and click the download button on the
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/download-test-template.png)
 
-**CODING LOCALLY**
+
+# Section Four
 
 **Opening project in VsCode**
 
@@ -301,30 +350,3 @@ It is impossible to talk about how to write tests for each situation as there ar
 - HOW TO TEST USER INPUT
 - HOW TO TEST ELEMENTS APPEARING
 - HOW TO TEST SCRIPTS
-
-
-TO - DO
-- [ ] Download VS code
-- [ ] Download Git Bash
-- [ ] Download Python
-- [ ] Read about ticket lifecycle
-- [ ] Start a ticket
-- [ ] Create project folder on local machine with the name of your ticket
-- [ ] Submit the files to your github branch
-- [ ] Download the test-template
-- [ ] Rename the test tempalte to the name of your ticket
-- [ ] Place the test template in the correct folder
-- [ ] Mark out user interaction with the UI in figma
-- [ ] Save files as PNG or JPG/JPEG in the appropriate folder
-- [ ] Upload the files unto your github branch
-- [ ] Move your ticker from in development to awaiting UI review
-- [ ] Wait for review
-- [ ] Read about the best coding practises and naming conventions
-- [ ] Code up the solution on your local machine
-- [ ] Run a develeopment server for the solution on your local machine 
-- [ ] Test your solution with selenium
-- [ ] Submit your solution to your branch
-- [ ] Move your ticket from in development to awaiting code review
-- [ ] Wait for review
-- [ ] All Ok - Integrated - Done
-- [ ] Start new ticket
