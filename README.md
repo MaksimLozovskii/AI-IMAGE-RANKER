@@ -3,7 +3,7 @@
 
 **Human program - app where people can do useful work by following human understandable instructions for rewards and ranks, while at the same time achieving desired results**
 ---
-Using rewards and neuro-linguistic programming techniques we help for you to achieve
+Work less - do more
 ---
 
 ## Project Members :
@@ -293,11 +293,6 @@ Just right
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/comment-just-right.png)
 
-
-You don't need to describe every single line of code, but it is valueble to note down the logic of the application using comments
-
-You can then delete the comments after the code has been written to keep the file clean
-
 **TESTING WITH SELENIUM**
 
 It is impossible to talk about how to write tests for each situation as there are infinite amounts of them, instead you can be provided general information on how to test basic HTML components, which is all you really need to start:
@@ -306,3 +301,30 @@ It is impossible to talk about how to write tests for each situation as there ar
 - HOW TO TEST USER INPUT
 - HOW TO TEST ELEMENTS APPEARING
 - HOW TO TEST SCRIPTS
+
+
+TO - DO
+- [ ] Download VS code
+- [ ] Download Git Bash
+- [ ] Download Python
+- [ ] Read about ticket lifecycle
+- [ ] Start a ticket
+- [ ] Create project folder on local machine with the name of your ticket
+- [ ] Submit the files to your github branch
+- [ ] Download the test-template
+- [ ] Rename the test tempalte to the name of your ticket
+- [ ] Place the test template in the correct folder
+- [ ] Mark out user interaction with the UI in figma
+- [ ] Save files as PNG or JPG/JPEG in the appropriate folder
+- [ ] Upload the files unto your github branch
+- [ ] Move your ticker from in development to awaiting UI review
+- [ ] Wait for review
+- [ ] Read about the best coding practises and naming conventions
+- [ ] Code up the solution on your local machine
+- [ ] Run a develeopment server for the solution on your local machine 
+- [ ] Test your solution with selenium
+- [ ] Submit your solution to your branch
+- [ ] Move your ticket from in development to awaiting code review
+- [ ] Wait for review
+- [ ] All Ok - Integrated - Done
+- [ ] Start new ticket
