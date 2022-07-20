@@ -200,25 +200,16 @@ _The "ticket name" in this case will be the name of the branch_
 
 **UI Interaction plan**
 
-How to make UI Interaction files
-Figma
-Make sure that the generated files are of the follwing : PNG / JPEG(JPG)
-How the user interacts with the UI
-Event based UI creation
-For example {IMAGE BEFORE EVENT} -> {IMAGE AFTER EVENT}
+- How to make UI Interaction files
+- Figma
+- Make sure that the generated files are of the follwing : PNG / JPEG(JPG)
+- How the user interacts with the UI
+- Event based UI creation
+- For example {IMAGE BEFORE EVENT} -> {IMAGE AFTER EVENT}
+- Make the base layout
+- Then add UI pages with different UI elements depending on the user input
 
-Make the base layout
-Then add UI pages with different UI elements depending on the user input
-
-{EXAMPLE PHOTO}
-
-**Test Case document**
-
-It is vital that you define appropriate test cases with 100% coverage.
-
-**We suggest that you use the following document:**
-
-**How to download the test template**
+**Download Test Case document**
 
 First, locate the "md-img" branch and switch to it
 
@@ -264,17 +255,65 @@ if {user} |action / event| && |action / event | && n -> system should ___"
    - if \user\ |Presses Submit button| && |String in Username field has code| -> the system should output an error message "Incorrect Username Format {suggest format}"
    - if \user\ |Presses Submit button| && |String in Email field has code| -> the system should output an error message "Incorrect Email Format {suggest format}"
    - if \user\ |Presses Submit button| && |String in Password field has code| -> the system should output an error message "Incorrect Password Format {suggest format}"
-   
-  
-{EXAMPLE PHOTO}
 
 **CODING LOCALLY**
 
 **Opening project in VsCode**
 
+A quick way to open vs code is to right click inside your project folder, click "git bash here" and then type in
+
+```
+code .
+```
+
+This will launch vs code and open this folder as the project
+
+**Running a development server**
+
+```bash
+flask run -p 3000
+```
+
 **BEST CODING PRACTISES**
-Describing logic as comments
-Naming conventions
+
+This is what nightmare looks like
+
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/emoji-nightmare.jpg)
+
+
+Best coding practises are essential to maintain code clarity
+
+- Name functions like you are telling them to do something:
+
+```
+✅
+def getLoginDetails():
+def downloadUsernameFile():
+def calculateChange():
+
+❌
+def x():                  -> Don't use letters to name functions
+def ./,⍻⍻123():          -> Don't use numbers / emojis / symbols to name functions (will not work)
+def download():           -> Function names should be descriptive
+def DownloadUsername()    -> Functions can't start with a capital letter
+```
+
+- Variable names
+
+```
+✅
+inputUsername = "Bob"
+valueX = 12
+valueY = valueX  * valueX     -> Try to avoid hardcoding a number into a variable as the answer of a calculation or event result
+
+❌
+x = 123
+someNumber = 456
+⍻ ⍻⍻ ⍻ = "Dont-do-that-ever"
+ValueX = 123
+VALUEX = 123
+vALUEX = 123
+```
 
 https://medium.com/swlh/how-to-better-name-your-functions-and-variables-e962a4ef335b
 
@@ -284,14 +323,9 @@ https://devopedia.org/images/article/151/8127.1549366316.png
 
 {BAD EXAMPLE PHOTO}
 
-Dev server
-```bash
-flask run -p 3000
-```
+`
 
-**TESTING LOCALLY**
-
-**Selenium tests**
+**TESTING LOCALLY WITH SELENIUM**
 
 It is impossible to talk about how to write tests for each situation as there are infinite amounts of them, instead you can be provided general information on how to test basic HTML components, which is all you really need to start:
 - HOW TO TEST BUTTONS
