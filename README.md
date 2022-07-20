@@ -218,9 +218,20 @@ It is vital that you define appropriate test cases with 100% coverage.
 
 **We suggest that you use the following document:**
 
-Download the template here
+**How to download the test template**
 
-https://downgit.github.io/#/home?url=https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/test-template.xlsx
+First, locate the "md-img" branch and switch to it
+
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/find-branches.png)
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/switch-md-img.png)
+
+Then, find the test-template folder and open it
+
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/find-test-template.png)
+
+Inside it, open the test-template.xlsx file and click the download button on the right-hand side of the page
+
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/download-test-template.png)
 
 **Single Event**
 
