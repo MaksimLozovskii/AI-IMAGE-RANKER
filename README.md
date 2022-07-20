@@ -218,7 +218,9 @@ It is vital that you define appropriate test cases with 100% coverage.
 
 **We suggest that you use the following document:**
 
-{DOWNLOAD LINK}
+Download the template here
+
+https://downgit.github.io/#/home?url=https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/test-template.xlsx
 
 **Single Event**
 
@@ -278,13 +280,14 @@ flask run -p 3000
 
 **TESTING LOCALLY**
 
-Selenium tests
+**Selenium tests**
+
 It is impossible to talk about how to write tests for each situation as there are infinite amounts of them, instead you can be provided general information on how to test basic HTML components, which is all you really need to start:
--HOW TO TEST BUTTONS
--HOW TO TEST FORMS
--HOW TO TEST USER INPUT
--HOW TO TEST ELEMENTS APPEARING
--HOW TO TEST SCRIPTS
+- HOW TO TEST BUTTONS
+- HOW TO TEST FORMS
+- HOW TO TEST USER INPUT
+- HOW TO TEST ELEMENTS APPEARING
+- HOW TO TEST SCRIPTS
 
 {EXAMPLE PHOTO}
 
