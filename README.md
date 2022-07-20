@@ -224,38 +224,6 @@ Inside it, open the test-template.xlsx file and click the download button on the
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/download-test-template.png)
 
-**Single Event**
-
-if {user} |action / event| -> system should ___"
-
-**Multiple events**
-
-if {user} |action / event| && |action / event | && n -> system should ___"
-
-**For example : LOG-IN system : **
-
-- The data that will be processed within the system:
-  - User input Username
-  - User input Email
-  - User input Password
-  
-  - System stored Username
-  - System stored Email
-  - System stored Password
-  
- - What the system should do
-   - if \user\ |Presses Submit button| && |Empty String in the username field| ->  the system should output an error message "Empty Username Field not allowed"
-   - if \user\ |Presses Submit button| && |Empty String in the email field| -> the system should output an error message "Empty Email Field not allowed"
-   - if \user\ |Presses Submit button| && |Empty String in the password field| -> the system should output an error message "Empty Password Field not allowed"
- 
-   - if \user\ |Presses Submit button| && |String in Username field has incorrect format| -> the system should output an error message "Incorrect Username Format {suggest format}"
-   - if \user\ |Presses Submit button| && |String in Email field has incorrect format| -> the system should output an error message "Incorrect Email Format {suggest format}"
-   - if \user\ |Presses Submit button| && |String in Password field has incorrect format| -> the system should output an error message "Incorrect Passsord Format {suggest format}"
-   
-   - if \user\ |Presses Submit button| && |String in Username field has code| -> the system should output an error message "Incorrect Username Format {suggest format}"
-   - if \user\ |Presses Submit button| && |String in Email field has code| -> the system should output an error message "Incorrect Email Format {suggest format}"
-   - if \user\ |Presses Submit button| && |String in Password field has code| -> the system should output an error message "Incorrect Password Format {suggest format}"
-
 **CODING LOCALLY**
 
 **Opening project in VsCode**
@@ -330,7 +298,7 @@ You don't need to describe every single line of code, but it is valueble to note
 
 You can then delete the comments after the code has been written to keep the file clean
 
-**TESTING LOCALLY WITH SELENIUM**
+**TESTING WITH SELENIUM**
 
 It is impossible to talk about how to write tests for each situation as there are infinite amounts of them, instead you can be provided general information on how to test basic HTML components, which is all you really need to start:
 - HOW TO TEST BUTTONS
@@ -338,7 +306,3 @@ It is impossible to talk about how to write tests for each situation as there ar
 - HOW TO TEST USER INPUT
 - HOW TO TEST ELEMENTS APPEARING
 - HOW TO TEST SCRIPTS
-
-{EXAMPLE PHOTO}
-
-### INTEGRATION
