@@ -12,12 +12,13 @@ Work less - do more
 
 Overview
 
-Section One
+Getting the right tools
 - ✅ Download VS code
 - ✅ Download Git Bash
 - ✅ Download Python
 
-Section Two
+
+Ticket lifecycle or how to start a ticket
 - ✅ Read about ticket lifecycle
 - ✅ Start a ticket
 - ✅ Create project folder on local machine with the name of your ticket
@@ -26,18 +27,21 @@ Section Two
 - ✅ Place the test template in the correct folder
 - ✅ Submit the files to your github branch
 
-Section Three
+
+Planning the UI
 - ✅ Mark out user interaction with the UI in figma
 - ✅ Save files as PNG or JPG/JPEG in the appropriate folder
 - ✅ Upload the files unto your github branch
 - ✅ Move your ticker from in development to awaiting UI review
 - ✅ Wait for review
 
+
 - ✅ Your UI was approved - you can start coding
 - OR
 - ❌ Yout UI was not approved, you need to fix it
 
-Section Four
+
+Coding up the solution
 - ✅ Read about the best coding practises and naming conventions
 - ✅ Code up the solution on your local machine
 - ✅ Run a develeopment server for the solution on your local machine 
@@ -46,15 +50,15 @@ Section Four
 - ✅ Move your ticket from in development to awaiting code review
 - ✅ Wait for review
 
+
 - ✅ Your code was approved and is now being integrated
 - OR
 - ❌ Yout code was not approved, you need to fix it
 
 ---
 
-# Section One
+# Getting the right tools
 
-## Getting the right tools
 Tools are intergral, but should not take the entire attention span, the following tools offer all of the necessary functionality out of the box that will allow you to effectively develop human instructions.
 
 | Plugin  | Download Link | How to install |
@@ -65,9 +69,8 @@ Tools are intergral, but should not take the entire attention span, the followin
 
 
 
-# Section Two
+# Ticket lifecycle or how to start a ticket
 
-### Ticket lifecycle or how to start a ticket
 In order to start a ticket, head over to the issues tab of the repository, and have a look over the tickets, when choosing a ticket, make sure to take into account the following:
 - **Is the ticket complete?** The tickets with a green cicrle beside them are not yet complete
 - **Can I start this ticket?** You will see a user's avatar beside the ticket if it is assigned to someone else, you cannot assign yourself to a ticket without permission if it has already been started
@@ -186,6 +189,21 @@ Change "ticket name" to the name of the ticket you assigned yourself
 
 Change "change to your name" to the your github nickname
 
+**Download Test Case document**
+
+First, locate the "md-img" branch and switch to it
+
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/find-branches.png)
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/switch-md-img.png)
+
+Then, find the test-template folder and open it
+
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/find-test-template.png)
+
+Inside it, open the test-template.xlsx file and click the download button on the right-hand side of the page
+
+![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/download-test-template.png)
+
 
 **Create a new branch to keep your code separate from others**
 ```
@@ -244,9 +262,7 @@ _The "ticket name" in this case will be the name of the branch_
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/your-repo.png?raw=true)
 
 
-# Section Three
-
-**UI Interaction plan**
+# Planning the UI
 
 - How to make UI Interaction files
 - Figma
@@ -257,23 +273,7 @@ _The "ticket name" in this case will be the name of the branch_
 - Make the base layout
 - Then add UI pages with different UI elements depending on the user input
 
-**Download Test Case document**
-
-First, locate the "md-img" branch and switch to it
-
-![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/find-branches.png)
-![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/switch-md-img.png)
-
-Then, find the test-template folder and open it
-
-![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/find-test-template.png)
-
-Inside it, open the test-template.xlsx file and click the download button on the right-hand side of the page
-
-![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/download-test-template.png)
-
-
-# Section Four
+# Coding up the solution
 
 **Opening project in VsCode**
 
@@ -291,7 +291,7 @@ This will launch vs code and open this folder as the project
 flask run -p 3000
 ```
 
-**BEST CODING PRACTISES**
+**Best coding practises**
 
 This is what nightmare looks like
 
