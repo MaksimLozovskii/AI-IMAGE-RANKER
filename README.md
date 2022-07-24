@@ -7,13 +7,15 @@ Work less - do more
 
 ## Project Owners :
 | -- | -- | -- |
-| :-----:  | :-----: |  
+| :-----:  | :-----: | :-----: | 
 | **John Bustard** | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/johnbustard-avatar.png) | {Email} |
 | **Maksim Lozovskii** | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/maksim-lozovskii-avatar.png) | {Email} |
 
 ## Top contenders :
-| -- | -- |
-| :-----:  | :-----: |  
+| -- | -- | -- |
+| :-----:  | :-----: | :-----: | 
+| |  | {Email} |
+|  |  | {Email} |
 
 - Senior Members Avatars
 - Top contributers avatars
