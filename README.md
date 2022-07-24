@@ -4,13 +4,16 @@
 **Human program - app where people can do useful work by following human understandable instructions for rewards and ranks, while at the same time achieving desired results**
 ---
 Work less - do more
----
 
-## Project Members :
+## Project Owners :
+| -- | -- | -- |
+| :-----:  | :-----: |  
+| **John Bustard** | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/johnbustard-avatar.png) | {Email} |
+| **Maksim Lozovskii** | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/maksim-lozovskii-avatar.png) | {Email} |
+
+## Top contenders :
 | -- | -- |
 | :-----:  | :-----: |  
-| **John Bustard** | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/johnbustard-avatar.png) |
-| **Maksim Lozovskii** | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/maksim-lozovskii-avatar.png) |
 
 - Senior Members Avatars
 - Top contributers avatars
