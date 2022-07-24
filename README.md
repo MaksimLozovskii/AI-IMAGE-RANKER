@@ -5,6 +5,12 @@
 ---
 Work less - do more
 
+Our project discord
+
+```
+https://discord.gg/ZzkYPaaa
+```
+
 ## Project Owners :
 | -- | -- | -- |
 | :-----:  | :-----: | :-----: | 
