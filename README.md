@@ -25,9 +25,9 @@ General Project Information
 | -- | -- | -- |
 | :-----:  | :-----: | :-----: | 
 | Page colour scheme |  |  |
-| Page font | <link rel="preconnect" href="https://fonts.googleapis.com">
+| Page font | ```<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"> |  |
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">``` |  |
 | Header and footer code |  |  |
 
 Project Information Links
