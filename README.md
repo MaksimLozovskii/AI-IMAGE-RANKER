@@ -7,8 +7,8 @@ Work less - do more
 ---
 
 ## Project Members :
-
-| :------:  | :------: |  
+| -- | -- |
+| :-----:  | :-----: |  
 | **John Bustard** | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/johnbustard-avatar.png)  |
 | **Maksim Lozovskii** | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/maksim-lozovskii-avatar.png) |
 
