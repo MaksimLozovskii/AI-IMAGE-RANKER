@@ -288,8 +288,10 @@ This will launch vs code and open this folder as the project
 **Running a development server**
 
 ```bash
-flask run -p 3000
+$ FLASK_APP=app.py FLASK_ENV=development flask run --port 8080
 ```
+
+You can change the localhost port to a prefered one by changing the 8080 value after the --port
 
 **Best coding practises**
 
