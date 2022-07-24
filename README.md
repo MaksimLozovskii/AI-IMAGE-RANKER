@@ -17,17 +17,20 @@ Work less - do more
 | |  | {Email} |
 |  |  | {Email} |
 
-- Senior Members Avatars
-- Top contributers avatars
-- Contact information
-
-
 General Project Information
 - Page colour scheme
 - Page font
 - Header and footer code
 
+| -- | -- | -- |
+| :-----:  | :-----: | :-----: | 
+| Page colour scheme |  |  |
+| Page font | <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"> |  |
+| Header and footer code |  |  |
 
+Project Information Links
 - Idea suggestion page
 - Discord link
 
