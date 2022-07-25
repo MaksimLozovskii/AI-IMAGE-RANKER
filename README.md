@@ -251,6 +251,43 @@ Inside it, open the test-template.xlsx file and click the download button on the
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/download-test-template.png)
 
 
+**TEST TEMPLATE STRUCTURE**
+
+**For Single Events**
+
+if {user} |action / event| -> system should ___"
+
+**For Multiple events**
+
+if {user} |action / event| && |action / event | && n -> system should ___"
+
+**For example : LOG-IN system : **
+
+- The data that will be processed within the system:
+  - User input Username
+  - User input Email
+  - User input Password
+  
+  - System stored Username
+  - System stored Email
+  - System stored Password
+  
+ - What the system should do
+   - if \user\ |Presses Submit button| && |Empty String in the username field| ->  the system should output an error message "Empty Username Field not allowed"
+   - if \user\ |Presses Submit button| && |Empty String in the email field| -> the system should output an error message "Empty Email Field not allowed"
+   - if \user\ |Presses Submit button| && |Empty String in the password field| -> the system should output an error message "Empty Password Field not allowed"
+ 
+   - if \user\ |Presses Submit button| && |String in Username field has incorrect format| -> the system should output an error message "Incorrect Username Format {suggest format}"
+   - if \user\ |Presses Submit button| && |String in Email field has incorrect format| -> the system should output an error message "Incorrect Email Format {suggest format}"
+   - if \user\ |Presses Submit button| && |String in Password field has incorrect format| -> the system should output an error message "Incorrect Passsord Format {suggest format}"
+   
+   - if \user\ |Presses Submit button| && |String in Username field has code| -> the system should output an error message "Incorrect Username Format {suggest format}"
+   - if \user\ |Presses Submit button| && |String in Email field has code| -> the system should output an error message "Incorrect Email Format {suggest format}"
+   - if \user\ |Presses Submit button| && |String in Password field has code| -> the system should output an error message "Incorrect Password Format {suggest format}"
+
+
+**Submitting to github**
+
 **Create a new branch to keep your code separate from others**
 ```
 git checkout -b "ticket_name" 
