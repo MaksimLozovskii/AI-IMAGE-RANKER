@@ -428,8 +428,6 @@ Just right
 **TESTING WITH SELENIUM**
 
 It is impossible to talk about how to write tests for each situation as there are infinite amounts of them, instead you can be provided general information on how to test basic HTML components, which is all you really need to start:
-- HOW TO TEST BUTTONS
-- HOW TO TEST FORMS
-- HOW TO TEST USER INPUT
-- HOW TO TEST ELEMENTS APPEARING
-- HOW TO TEST SCRIPTS
+
+Watch the following tutorials carefully, they are very informative and will help you out
+https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ
