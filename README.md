@@ -415,7 +415,7 @@ VALUEX = 123
 vALUEX = 123
 ```
 
-- Add comments, but be mindful about them
+**Add comments, but be mindful about them**
 
 Overkill
 
@@ -425,11 +425,13 @@ Just right
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/comment-just-right.png)
 
+The comments should describe the logic of the file, even if you delete the code, this way other developers who may not be very skilled programmers will understand the logic of the application
+
 **TESTING WITH SELENIUM**
 
 It is impossible to talk about how to write tests for each situation as there are infinite amounts of them, instead you can be provided general information on how to test basic HTML components, which is all you really need to start:
 
-Watch the following tutorials carefully, they are very informative and will help you out
+**Watch the following tutorials carefully, they are very informative and will help you out**
 
 (Right click and open in the new tab)
 
