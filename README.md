@@ -17,16 +17,11 @@ https://discord.gg/ZzkYPaaa
 | **John Bustard** | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/johnbustard-avatar.png) | {Email} |
 | **Maksim Lozovskii** | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/maksim-lozovskii-avatar.png) | {Email} |
 
-## Top contenders :
+## Top contributors :
 | Name | Avatar | Contact Info |
 | :-----:  | :-----: | :-----: | 
 | |  | {Email} |
 |  |  | {Email} |
-
-General Project Information
-- Page colour scheme
-- Page font
-- Header and footer code
 
 | -- | -- | -- |
 | :-----:  | :-----: | :-----: | 
@@ -44,7 +39,7 @@ Page colour scheme
 | #707793 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%23707793.png) |
 
 
-Page font
+Page font - Roboto Slab
 
 ```css
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,9 +47,12 @@ Page font
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 ```
 
-Project Information Links
-- Idea suggestion page
-- Discord link
+Header and footer Code
+```
+
+
+
+```
 
 Overview
 
