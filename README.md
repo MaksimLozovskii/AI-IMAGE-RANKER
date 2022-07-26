@@ -23,12 +23,6 @@ https://discord.gg/ZzkYPaaa
 | |  | {Email} |
 |  |  | {Email} |
 
-| -- | -- | -- |
-| :-----:  | :-----: | :-----: | 
-| Page colour scheme |  |  |
-| Page font |  |  |
-| Header and footer code |  |  |
-
 Page colour scheme
 | Hex | Sample |
 | :-----: | :-----: | 
