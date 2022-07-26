@@ -5,7 +5,7 @@
 ---
 Work less - do more
 
-Our project discord
+**Our project discord**
 
 ```
 https://discord.gg/ZzkYPaaa
