@@ -429,7 +429,7 @@ The comments should describe the logic of the file, even if you delete the code,
 
 **TESTING WITH SELENIUM**
 
-It is impossible to talk about how to write tests for each situation as there are infinite amounts of them, instead you can be provided general information on how to test basic HTML components, which is all you really need to start:
+> It is impossible to talk about how to write tests for each situation as there are infinite amounts of them, instead you can be provided general information on how to > test basic HTML components, which is all you really need to start:
 
 **Watch the following tutorials carefully, they are very informative and will help you out**
 
