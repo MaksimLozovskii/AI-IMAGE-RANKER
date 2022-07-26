@@ -430,4 +430,7 @@ Just right
 It is impossible to talk about how to write tests for each situation as there are infinite amounts of them, instead you can be provided general information on how to test basic HTML components, which is all you really need to start:
 
 Watch the following tutorials carefully, they are very informative and will help you out
+
+(Right click and open in the new tab)
+
 https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ
