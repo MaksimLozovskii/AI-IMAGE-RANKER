@@ -381,10 +381,6 @@ Page font - Roboto Slab
 ```
 
 Pre Made UI Components
-- buttons
-- forms
-- Titles
-- Paragraph text
 - Nullifying styles (put at the top of every CSS file)
 
 ```
