@@ -90,12 +90,11 @@ How to make your own tickets
 
 Tools are intergral, but should not take the entire attention span, the following tools offer all of the necessary functionality out of the box that will allow you to effectively develop human instructions.
 
-| VsCode   | GitBash | Python  |
-| :-----:  | :-----: | :-----: |  
-| Download link | https://code.visualstudio.com/download | https://git-scm.com/downloads | https://www.python.org/downloads/ |
-| How to install (Video) | https://www.youtube.com/watch?v=MlIzFUI1QGA | https://www.youtube.com/watch?v=pIbxvTsjqLw | https://www.youtube.com/watch?v=i-MuSAwgwCU | 
-| Icon | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/vscode-icon.jpg) | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/gitbash-icon.jpg) | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/python-icon.png) |
-
+| Download Link  | Visual Guide | Icon  |
+| :------  | :-----: | :-----: |  
+| VsCode | https://code.visualstudio.com/download | https://www.youtube.com/watch?v=MlIzFUI1QGA | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/vscode-icon.jpg)  |
+| GitBash | https://git-scm.com/downloads | https://www.youtube.com/watch?v=pIbxvTsjqLw  | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/gitbash-icon.jpg) |
+| Python | https://www.python.org/downloads/ | https://www.youtube.com/watch?v=i-MuSAwgwCU | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/python-icon.png) |
 
 
 # Ticket lifecycle or how to start a ticket
