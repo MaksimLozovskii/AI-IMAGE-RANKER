@@ -339,14 +339,36 @@ _The "ticket name" in this case will be the name of the branch_
 
 # Planning the UI
 
-- How to make UI Interaction files
-- Figma
-- Make sure that the generated files are of the follwing : PNG / JPEG(JPG)
-- How the user interacts with the UI
-- Event based UI creation
-- For example {IMAGE BEFORE EVENT} -> {IMAGE AFTER EVENT}
-- Make the base layout
-- Then add UI pages with different UI elements depending on the user input
+For mocking up the UI aspect, we suggest using an application such as Figma or Adobe XD
+For the purpose of this guide, we will be using figma as its free to use.
+
+The purpose of creating the UI portion of the application first, is to show how the user will interact with the system and how the system will behave
+This way, we know exactly what should happen on the front end, if any other unexpected events happen, this will be flagged as a software issue.
+
+{IMG}
+
+**Event based UI creation**
+
+To start off:
+
+
+- ✅ Make the base layout
+{IMG}
+
+- ✅ Copy the base layout onto a new page or a different place 2 times (so you have the before and after)
+- ✅ Define a user-system event (where the user interacts with the system, such as presses a button and the system does something, such as prints out a message)
+- ✅ Lay out the defined event on the two copies of the mackup that you made
+
+**For example**
+
+{IMAGE BEFORE EVENT} -> {IMAGE AFTER EVENT}
+
+- ✅ Follow the ticket objectives until all the user-system events are defined and layed out
+- ✅ When you have defined and layed out all of the user-system events, export, save or just screenshot each event and save them as separate files with the name of the event, such as: "UserPressesSubmitButtonWhenFieldEmpty-SystemPrintsError", they can get long, but they give a clear indication of what is happening.
+- ✅ Submit for a review
+
+__Note that we only accept PNG or JPEG(JPG)__
+
 
 # Coding up the solution
 
