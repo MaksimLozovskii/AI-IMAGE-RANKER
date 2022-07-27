@@ -363,12 +363,12 @@ __Note that we only accept PNG or JPEG(JPG)__
 
 Page colour scheme
 | Hex | Sample | Use case |
-| :-----: | :-----: | 
+| :-----: | :-----: | :-----: | 
 | #3BBA9C | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233bba9c.png) | Main Titles (h1) and buttons (button) |
-| #2E3047 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%232e3047.png) |
-| #3C3F58 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233c3f58.png) |
-| #43455C | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%2343455c.png) |
-| #707793 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%23707793.png) |
+| #2E3047 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%232e3047.png) | |
+| #3C3F58 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233c3f58.png) | |
+| #43455C | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%2343455c.png) | |
+| #707793 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%23707793.png) | |
 
 
 Page font - Roboto Slab
