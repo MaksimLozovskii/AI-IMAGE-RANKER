@@ -23,30 +23,6 @@ https://discord.gg/ZzkYPaaa
 | |  | {Email} |
 |  |  | {Email} |
 
-Page colour scheme
-| Hex | Sample |
-| :-----: | :-----: | 
-| #3BBA9C | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233bba9c.png) |
-| #2E3047 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%232e3047.png) |
-| #3C3F58 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233c3f58.png) |
-| #43455C | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%2343455c.png) |
-| #707793 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%23707793.png) |
-
-
-Page font - Roboto Slab
-
-```css
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-```
-
-Header and footer code
-```
-
-
-
-```
 
 Overview
 
@@ -368,6 +344,41 @@ For example
 - ✅ Submit for a review
 
 __Note that we only accept PNG or JPEG(JPG)__
+
+
+
+Page colour scheme
+| Hex | Sample |
+| :-----: | :-----: | 
+| #3BBA9C | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233bba9c.png) |
+| #2E3047 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%232e3047.png) |
+| #3C3F58 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233c3f58.png) |
+| #43455C | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%2343455c.png) |
+| #707793 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%23707793.png) |
+
+
+Page font - Roboto Slab
+
+```css
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+```
+
+Pre made ui components
+- buttons
+- forms
+- Titles
+- Paragraph text
+- Nullifying styles
+- Header and footer code
+
+- Some examples of what has been done with screenshots
+- Language that is used with screenshots
+- Tools that they use in list format with screenshots
+- A guide on how to use their project management system (preferebly a video)
+- A guide on how to do my own ticket (video preferebly)
+- Boilerplate files and/or code
 
 
 # Coding up the solution
