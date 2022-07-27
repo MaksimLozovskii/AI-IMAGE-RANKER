@@ -352,14 +352,14 @@ This way, we know exactly what should happen on the front end, if any other unex
 To start off:
 
 
-- ✅ Make the base layout
+- ✅ Make the base layout using the ticket overview
+
 {IMG}
 
 - ✅ Copy the base layout onto a new page or a different place 2 times (so you have the before and after)
-- ✅ Define a user-system event (where the user interacts with the system, such as presses a button and the system does something, such as prints out a message)
-- ✅ Lay out the defined event on the two copies of the mackup that you made
+- ✅ Lay out a user-system event (where the user interacts with the system, such as presses a button and the system does something, such as prints out a message)
 
-**For example**
+For example
 
 {IMAGE BEFORE EVENT} -> {IMAGE AFTER EVENT}
 
@@ -384,15 +384,22 @@ This will launch vs code and open this folder as the project
 
 **Running a development server**
 
+To run your flask application, open gitbash inside the folder where the app.py file is, and type in the following command
+
 ```bash
 $ FLASK_APP=app.py FLASK_ENV=development flask run --port 8080
 ```
 
-You can change the localhost port to a prefered one by changing the 8080 value after the --port
+The website can viewed in the browser by typing in
+
+```
+localhost:8080
+```
+
 
 **Best coding practises**
 
-This is what nightmare looks like
+This is what a coder's nightmare looks like 😄😄😄
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/emoji-nightmare.jpg)
 
@@ -433,11 +440,11 @@ vALUEX = 123
 
 **Add comments, but be mindful about them**
 
-Overkill
+Overkill 🤨
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/comment-overkill.png)
 
-Just right
+Just right 🤩
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/comment-just-right.png)
 
