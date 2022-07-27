@@ -23,6 +23,13 @@ https://discord.gg/ZzkYPaaa
 | |  | {Email} |
 |  |  | {Email} |
 
+# **TO ADD TO README**
+- Boilerplate files and/or code
+- Language that is used with screenshots
+- Tools that they use in list format with screenshots
+- A guide on how to use their project management system (preferebly a video)
+- A guide on how to do my own ticket (video preferebly)
+
 
 **Overview**
 
@@ -83,11 +90,11 @@ How to make your own tickets
 
 Tools are intergral, but should not take the entire attention span, the following tools offer all of the necessary functionality out of the box that will allow you to effectively develop human instructions.
 
-| Plugin  | Download Link | How to install |
+| VsCode   | GitBash | Python  |
 | :------  | :------ | :------ |  
-| VsCode  | https://code.visualstudio.com/download | https://www.youtube.com/watch?v=MlIzFUI1QGA |
-| GitBash | https://git-scm.com/downloads | https://www.youtube.com/watch?v=pIbxvTsjqLw |
-| Python  | https://www.python.org/downloads/ | https://www.youtube.com/watch?v=i-MuSAwgwCU |
+| Download link | https://code.visualstudio.com/download | https://git-scm.com/downloads | https://www.python.org/downloads/ |
+| How to install (Video) | https://www.youtube.com/watch?v=MlIzFUI1QGA | https://www.youtube.com/watch?v=pIbxvTsjqLw | https://www.youtube.com/watch?v=i-MuSAwgwCU | 
+| Icon | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/gitbash-icon.jpg) | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/gitbash-icon.jpg) | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/gitbash-icon.jpg) |
 
 
 
@@ -373,21 +380,25 @@ Page font - Roboto Slab
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 ```
 
-Pre made ui components
+Pre Made UI Components
 - buttons
 - forms
 - Titles
 - Paragraph text
-- Nullifying styles
+- Nullifying styles (put at the top of every CSS file)
+
+```
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+```
+
 - Header and footer code
+```
 
-- Some examples of what has been done with screenshots
-- Language that is used with screenshots
-- Tools that they use in list format with screenshots
-- A guide on how to use their project management system (preferebly a video)
-- A guide on how to do my own ticket (video preferebly)
-- Boilerplate files and/or code
-
+```
 
 # Coding up the solution
 
