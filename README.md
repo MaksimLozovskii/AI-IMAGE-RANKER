@@ -470,3 +470,11 @@ The comments should describe the logic of the file, even if you delete the code,
 (Right click and open in the new tab)
 
 https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ
+
+
+# Making your own tickets
+
+This can be done via the human-instruction-suggestion channel on discord
+- Ticket overview (couple of paragraphs)
+- User-system events (will be used later for design)
+- System events (will later be used for development)
