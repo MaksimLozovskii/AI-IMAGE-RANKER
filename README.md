@@ -24,7 +24,7 @@ https://discord.gg/ZzkYPaaa
 |  |  | {Email} |
 
 
-Overview
+**Overview**
 
 Getting the right tools
 - ✅ Download VS code
@@ -68,6 +68,14 @@ Coding up the solution
 - ✅ Your code was approved and is now being integrated
 - OR
 - ❌ Yout code was not approved, you need to fix it
+
+**Additional**
+
+How to make your own tickets
+
+- ✅ Ticket overview
+- ✅ User-system events
+- ✅ System events
 
 ---
 
