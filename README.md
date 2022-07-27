@@ -24,11 +24,12 @@ https://discord.gg/ZzkYPaaa
 |  |  | {Email} |
 
 # **TO ADD TO README**
-- Boilerplate files and/or code
-- Language that is used with screenshots
-- Tools that they use in list format with screenshots
-- A guide on how to use their project management system (preferebly a video)
-- A guide on how to do my own ticket (video preferebly)
+- Boilerplate files and/or code 
+- Test files
+- UI example files in figma
+
+- A video guide on how to use their project management system 
+- A video guide on how to do my own ticket
 
 
 **Overview**
