@@ -361,7 +361,6 @@ For example
 __Note that we only accept PNG or JPEG(JPG)__
 
 
-
 Page colour scheme
 | Hex | Sample |
 | :-----: | :-----: | 
@@ -407,6 +406,13 @@ code .
 ```
 
 This will launch vs code and open this folder as the project
+
+
+## Frontend Code
+
+-BEM (Block - element - modifier)
+
+## Backend Code
 
 **Running a development server**
 
