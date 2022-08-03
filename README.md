@@ -368,7 +368,8 @@ Page colour scheme
 | #2E3047 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%232e3047.png) | |
 | #3C3F58 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233c3f58.png) | |
 | #43455C | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%2343455c.png) | |
-| #707793 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%23707793.png) | |
+| #707793 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%23707793.png) | For footer text |
+| #FFFFFF | insert img | For text |
 
 
 Page font - Roboto Slab
