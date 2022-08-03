@@ -368,7 +368,11 @@ Page colour scheme
 | #2E3047 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%232e3047.png) | Main Background (html, body)|
 | #3C3F58 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233c3f58.png) | Container Background |
 | #707793 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%23707793.png) | For footer text |
+| #14E35A | insert img | Extra important elements |
+| #AAD828 | insert img | Extra important elements |
+| #E8EC18 | insert img | Extra important elements |
 | #D89128 | insert img | Extra important elements |
+| #D85228 | insert img | Extra important elements |
 | #FFFFFF | insert img | For text |
 
 
