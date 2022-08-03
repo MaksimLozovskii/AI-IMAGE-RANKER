@@ -415,7 +415,10 @@ This will launch vs code and open this folder as the project
 
 ## Frontend Code
 
--BEM (Block - element - modifier)
+BEM - **Block Element Modifier** is a practise for naming, designing and orgranising the elements on HTML / CSS pages for better readability and scalability.
+
+More information on how to use BEM:
+https://sparkbox.com/foundry/bem_by_example
 
 ## Backend Code
 
