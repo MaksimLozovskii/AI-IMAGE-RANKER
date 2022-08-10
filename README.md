@@ -131,10 +131,8 @@ Head over to the issues tab of the repository, and have a look over the tickets,
 
   - **Beta testing** - meaning the ticket is currenly being tested in a controlled environemnt by other members of the repository, this is the last stage before release.
 
-![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/Labels.png?raw=true)
-
 As the ticket development progresses, the ticket moves from:
-**not started -> in development -> -> Awaiting UI review -> in development -> Awaiting code review -> beta testing -> Released and monitored**
+**not started -> in development -> Awaiting UI review -> in development -> Awaiting code review -> beta testing -> Released and monitored**
 
 ### First steps
 
@@ -264,7 +262,7 @@ if {user} |action / event| && |action / event | && n -> system should ___"
    - if \user\ |Presses Submit button| && |String in Password field has code| -> the system should output an error message "Incorrect Password Format {suggest format}"
 
 
-**Submitting to github**
+# Submitting to github
 
 **Create a new branch to keep your code separate from others**
 ```
