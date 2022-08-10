@@ -5,7 +5,6 @@
 # Work less - do more
 ---
 
-
 **Our project discord**
 
 ```
@@ -24,12 +23,7 @@ https://discord.gg/ZzkYPaaa
 | | |
 | | | 
 
-# **TO ADD TO README**
-- UI example files in figma
-- A video guide on how to use their project management system 
-- A video guide on how to do my own ticket
-
-Page colour scheme
+Colour scheme
 | Hex | Sample | Use case |
 | :-----: | :-----: | :-----: | 
 | #3BBA9C | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233bba9c.png) | Main Titles (h1) and buttons (button) |
@@ -37,7 +31,7 @@ Page colour scheme
 | #3C3F58 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233c3f58.png) | Container Background |
 | #707793 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%23707793.png) | For footer text |
 
-Page font - Roboto Slab
+Font - Roboto Slab
 
 ```html
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,8 +39,7 @@ Page font - Roboto Slab
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 ```
 
-
-**Overview**
+# Overview
 
 Getting the right tools
 - ✅ Download VS code
@@ -126,7 +119,7 @@ Head over to the issues tab of the repository, and have a look over the tickets,
 As the ticket development progresses, the ticket moves from:
 **not started -> in development -> Awaiting UI review -> in development -> Awaiting code review -> beta testing -> Released and monitored**
 
-### First steps
+# First steps
 
 1) Go to the "Issues" tab and find a ticket to do, for example here is one which was just created and can be taken:
 2) Click on the ticket and under the assignees tab click on your github profile, this way you will assign yourself to the ticket;
@@ -293,27 +286,19 @@ For the purpose of this guide, we will be using figma as its free to use.
 The purpose of creating the UI portion of the application first, is to show how the user will interact with the system and how the system will behave
 This way, we know exactly what should happen on the front end, if any other unexpected events happen, this will be flagged as a software issue.
 
-{IMG}
-
 **Event based UI creation**
 
 To start off:
 
 
-- ✅ Make the base layout using the ticket overview
-
-{IMG}
-
+- ✅ Make the base layout
 - ✅ Copy the base layout onto a new page or a different place 2 times (so you have the before and after)
 - ✅ Lay out a user-system event (where the user interacts with the system, such as presses a button and the system does something, such as prints out a message)
+- ✅ Submit for a review
 
 For example
 
 {IMAGE BEFORE EVENT} -> {IMAGE AFTER EVENT}
-
-- ✅ Follow the ticket objectives until all the user-system events are defined and layed out
-- ✅ When you have defined and layed out all of the user-system events, export, save or just screenshot each event and save them as separate files with the name of the event, such as: "UserPressesSubmitButtonWhenFieldEmpty-SystemPrintsError", they can get long, but they give a clear indication of what is happening.
-- ✅ Submit for a review
 
 __Note that we only accept PNG or JPEG(JPG)__
 
@@ -330,8 +315,6 @@ code .
 This will launch vs code and open this folder as the project
 
 # Running a development environment
-
-**Running a development server**
 
 To run your flask application, open gitbash inside the folder where the app.py file is, and type in the following command
 
@@ -351,9 +334,7 @@ This is what a coder's nightmare looks like 😄😄😄
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/emoji-nightmare.jpg)
 
-
-Best coding practises are essential to maintain code clarity
-
+ 
 # For Frontend
 BEM - **Block Element Modifier** is a practise for naming, designing and orgranising the elements on HTML / CSS pages for better readability and scalability.
 
@@ -368,9 +349,7 @@ https://sparkbox.com/foundry/bem_by_example
 def getLoginDetails():
 def downloadUsernameFile():
 def calculateChange():
-```
-- Don't use symbols or undescriptive words:
-```
+
 ❌
 def x():                  -> Don't use letters to name functions
 def ./,⍻⍻123():          -> Don't use numbers / emojis / symbols to name functions (will not work)
@@ -383,13 +362,11 @@ def DownloadUsername()    -> Functions can't start with a capital letter
 inputUsername = "Bob"
 XaxisVal = 12
 YaxisVal = XaxisVal * 2
-```
-- Don't use symbols or undescriptive words
-```
+
 ❌
 x = 123
 someNumber = 456
-⍻ ⍻⍻ ⍻ = "Dont-do-that-ever"
+⍻ ⍻⍻ ⍻ = "lol"
 vALUEX = 123
 ```
 
@@ -400,7 +377,7 @@ Selenium basics, watch all:
 https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ
 
 
-# Creating your own tickets
+# CREATING TICKETS
 
 In order to create your own ticket, you will need to put forward an idea in the idea section of out discord server, there the senior members will be able to review your ticket idea.
 In order to put forward your ticket idea, create a new thread with "your username : ticket name" in the github ticket idea chat. The thread must contain the following information in bullet points: 
