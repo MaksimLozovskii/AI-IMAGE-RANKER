@@ -12,13 +12,13 @@ https://discord.gg/ZzkYPaaa
 ```
 
 ## Project Owners :
-| Name  | Avatar | Email | 
+| Name  | Github Avatar | Email | 
 | :-----:  | :-----: | :-----: | 
 | **John Bustard** | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/johnbustard-avatar.png) | {Email} |
 | **Maksim Lozovskii** | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/maksim-lozovskii-avatar.png) | {Email} |
 
 ## Top contributors :
-| Name  | Avatar | 
+| Name  | Github Avatar | 
 | :-----:  | :-----: |
 | | |
 | | | 
@@ -210,14 +210,7 @@ if {user} |action / event| && |action / event | && n -> system should ___"
    - if user |Presses Submit button| && |Empty String in the username field| ->  the system should output an error message "Empty Username Field not allowed"
    - if user |Presses Submit button| && |Empty String in the email field| -> the system should output an error message "Empty Email Field not allowed"
    - if user |Presses Submit button| && |Empty String in the password field| -> the system should output an error message "Empty Password Field not allowed"
- 
-   - if user |Presses Submit button| && |String in Username field has incorrect format| -> the system should output an error message "Incorrect Username Format {suggest format}"
-   - if user |Presses Submit button| && |String in Email field has incorrect format| -> the system should output an error message "Incorrect Email Format {suggest format}"
-   - if user |Presses Submit button| && |String in Password field has incorrect format| -> the system should output an error message "Incorrect Passsord Format {suggest format}"
-   
-   - if user |Presses Submit button| && |String in Username field has code| -> the system should output an error message "Incorrect Username Format {suggest format}"
-   - if user |Presses Submit button| && |String in Email field has code| -> the system should output an error message "Incorrect Email Format {suggest format}"
-   - if user |Presses Submit button| && |String in Password field has code| -> the system should output an error message "Incorrect Password Format {suggest format}"
+
 
 # Submitting to github
 
@@ -300,21 +293,11 @@ For example
 
 {IMAGE BEFORE EVENT} -> {IMAGE AFTER EVENT}
 
-__Note that we only accept PNG or JPEG(JPG)__
+__PNG or JPEG(JPG) ONLY__
 
 # Coding up the solution
 
-**Opening project in VsCode**
-
-A quick way to open vs code is to right click inside your project folder, click "git bash here" and then type in
-
-```
-code .
-```
-
-This will launch vs code and open this folder as the project
-
-# Running a development environment
+## Running a development environment
 
 To run your flask application, open gitbash inside the folder where the app.py file is, and type in the following command
 
@@ -375,12 +358,3 @@ vALUEX = 123
 Selenium basics, watch all:
 
 https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ
-
-
-# CREATING TICKETS
-
-In order to create your own ticket, you will need to put forward an idea in the idea section of out discord server, there the senior members will be able to review your ticket idea.
-In order to put forward your ticket idea, create a new thread with "your username : ticket name" in the github ticket idea chat. The thread must contain the following information in bullet points: 
-- Ticket overview : Gives a basic idea of what the ticket is - a feature / bug fix / feature improvement
-- Who will be involved in the process apart from the reviewing team : For example if the ticket is a bug fix or feature improvement, you will have to specify the original developer of the ticket that you want to fix or improve, if you don't know who was responsible for that ticket, just put the down "creator" and the name of the ticket as they will need to grant you access and/or give information on the ticket. If the ticket is done solely by you, just put down your nickname.
-- Initial design mockups (if applicable) : Could just be a rough sketch in paint - this is just to give us an overview of what this could look like
