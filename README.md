@@ -29,6 +29,30 @@ https://discord.gg/ZzkYPaaa
 - A video guide on how to use their project management system 
 - A video guide on how to do my own ticket
 
+Page colour scheme
+| Hex | Sample | Use case |
+| :-----: | :-----: | :-----: | 
+| #3BBA9C | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233bba9c.png) | Main Titles (h1) and buttons (button) |
+| #2E3047 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%232e3047.png) | Main Background (html, body)|
+| #3C3F58 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233c3f58.png) | Container Background |
+| #707793 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%23707793.png) | For footer text |
+| #14E35A | insert img | Extra important elements |
+| #AAD828 | insert img | Extra important elements |
+| #E8EC18 | insert img | Extra important elements |
+| #D89128 | insert img | Extra important elements |
+| #D85228 | insert img | Extra important elements |
+| #FFFFFF | insert img | For text |
+
+
+Page font - Roboto Slab
+
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+<h1> h </h1>
+```
+
 
 **Overview**
 
@@ -78,7 +102,7 @@ Coding up the solution
 
 # Getting the right tools
 
-Tools are intergral, but should not take the entire attention span, the following tools offer all of the necessary functionality out of the box that will allow you to effectively develop human instructions.
+Get the following:
 
 | Tool Name | Download Link  | Visual Guide | Icon  |
 | :------ | :-----:  | :-----: | :-----: |  
@@ -89,7 +113,7 @@ Tools are intergral, but should not take the entire attention span, the followin
 
 # Ticket lifecycle or how to start a ticket
 
-In order to start a ticket, head over to the issues tab of the repository, and have a look over the tickets, when choosing a ticket, make sure to take into account the following:
+Head over to the issues tab of the repository, and have a look over the tickets, when choosing a ticket, make sure to take into account the following:
 - **Is the ticket complete?** The tickets with a green cicrle beside them are not yet complete
 - **Can I start this ticket?** You will see a user's avatar beside the ticket if it is assigned to someone else, you cannot assign yourself to a ticket without permission if it has already been started
 - **At what stage is this ticket?** There are 7 labels resembling progress at the moment: 
@@ -331,41 +355,6 @@ For example
 
 __Note that we only accept PNG or JPEG(JPG)__
 
-
-Page colour scheme
-| Hex | Sample | Use case |
-| :-----: | :-----: | :-----: | 
-| #3BBA9C | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233bba9c.png) | Main Titles (h1) and buttons (button) |
-| #2E3047 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%232e3047.png) | Main Background (html, body)|
-| #3C3F58 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233c3f58.png) | Container Background |
-| #707793 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%23707793.png) | For footer text |
-| #14E35A | insert img | Extra important elements |
-| #AAD828 | insert img | Extra important elements |
-| #E8EC18 | insert img | Extra important elements |
-| #D89128 | insert img | Extra important elements |
-| #D85228 | insert img | Extra important elements |
-| #FFFFFF | insert img | For text |
-
-
-Page font - Roboto Slab
-
-```html
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-<h1> h </h1>
-```
-
-Nullifying styles (put at the top of every CSS file)
-
-```css
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-```
-
 # Coding up the solution
 
 **Opening project in VsCode**
@@ -385,7 +374,7 @@ This will launch vs code and open this folder as the project
 To run your flask application, open gitbash inside the folder where the app.py file is, and type in the following command
 
 ```bash
-$ FLASK_APP=app.py FLASK_ENV=development flask run --port 8080
+FLASK_APP=app.py FLASK_ENV=development flask run --port 8080
 ```
 
 The website can viewed in the browser by typing in
@@ -393,7 +382,6 @@ The website can viewed in the browser by typing in
 ```
 localhost:8080
 ```
-
 
 **Best coding practises**
 
@@ -407,7 +395,7 @@ Best coding practises are essential to maintain code clarity
 # For Frontend
 BEM - **Block Element Modifier** is a practise for naming, designing and orgranising the elements on HTML / CSS pages for better readability and scalability.
 
-More information on how to use BEM:
+How to use BEM:
 https://sparkbox.com/foundry/bem_by_example
 
 
@@ -440,8 +428,6 @@ YaxisVal = XaxisVal * 2
 x = 123
 someNumber = 456
 ⍻ ⍻⍻ ⍻ = "Dont-do-that-ever"
-ValueX = 123
-VALUEX = 123
 vALUEX = 123
 ```
 
