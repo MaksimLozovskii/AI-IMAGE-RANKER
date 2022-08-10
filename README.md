@@ -25,7 +25,6 @@ https://discord.gg/ZzkYPaaa
 
 # **TO ADD TO README**
 - UI example files in figma
-
 - A video guide on how to use their project management system 
 - A video guide on how to do my own ticket
 
@@ -36,13 +35,6 @@ Page colour scheme
 | #2E3047 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%232e3047.png) | Main Background (html, body)|
 | #3C3F58 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233c3f58.png) | Container Background |
 | #707793 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%23707793.png) | For footer text |
-| #14E35A | insert img | Extra important elements |
-| #AAD828 | insert img | Extra important elements |
-| #E8EC18 | insert img | Extra important elements |
-| #D89128 | insert img | Extra important elements |
-| #D85228 | insert img | Extra important elements |
-| #FFFFFF | insert img | For text |
-
 
 Page font - Roboto Slab
 
@@ -50,7 +42,6 @@ Page font - Roboto Slab
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-<h1> h </h1>
 ```
 
 
@@ -143,9 +134,7 @@ As the ticket development progresses, the ticket moves from:
 Now you can start preparing the files and the development environment;
 
 **File structure**
-CREATE a folder in a convinient place on your computer and give it the name of the ticket (ticket name is before the ": Implement Human Instruction" in the issues tab), I made one on my desktop
-
-![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/create-folder.png?raw=true)
+CREATE a folder in a convinient place on your computer and give it the name of the ticket (ticket name is before the ": Implement Human Instruction" in the issues tab)
 
 OPEN the folder, right click inside it and click on "Git Bash Here"
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/open-gitbash.png?raw=true)
@@ -211,23 +200,7 @@ Change "ticket name" to the name of the ticket you assigned yourself
 
 Change "change to your name" to the your github nickname
 
-**Download Test Case document**
-
-First, locate the "md-img" branch and switch to it
-
-![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/find-branches.png)
-![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/switch-md-img.png)
-
-Then, find the test-template folder and open it
-
-![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/find-test-template.png)
-
-Inside it, open the test-template.xlsx file and click the download button on the right-hand side of the page
-
-![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/download-test-template.png)
-
-
-**TEST TEMPLATE STRUCTURE**
+# TEST TEMPLATE STRUCTURE**
 
 **For Single Events**
 
@@ -365,7 +338,7 @@ code .
 
 This will launch vs code and open this folder as the project
 
-## Running a development environment
+# Running a development environment
 
 **Running a development server**
 
@@ -429,13 +402,9 @@ someNumber = 456
 vALUEX = 123
 ```
 
-**TESTING WITH SELENIUM**
+# TESTING WITH SELENIUM
 
-> It is impossible to talk about how to write tests for each situation as there are infinite amounts of them, instead you can be provided general information on how to > test basic HTML components, which is all you really need to start:
-
-**Watch the following tutorials carefully, they are very informative and will help you out**
-
-(Right click and open in the new tab)
+Selenium basics, watch all:
 
 https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ
 
