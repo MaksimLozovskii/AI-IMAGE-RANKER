@@ -2,8 +2,9 @@
 🔥  _This is the official QLab Human program repository_ 🔥
 
 **Human program - app where people can do useful work by following human understandable instructions for rewards and ranks, while at the same time achieving desired results**
+# Work less - do more
 ---
-Work less - do more
+
 
 **Our project discord**
 
@@ -200,7 +201,7 @@ Change "ticket name" to the name of the ticket you assigned yourself
 
 Change "change to your name" to the your github nickname
 
-# TEST TEMPLATE STRUCTURE**
+# TEST TEMPLATE STRUCTURE
 
 **For Single Events**
 
@@ -211,29 +212,19 @@ if {user} |action / event| -> system should ___"
 if {user} |action / event| && |action / event | && n -> system should ___"
 
 **For example : LOG-IN system : **
-
-- The data that will be processed within the system:
-  - User input Username
-  - User input Email
-  - User input Password
-  
-  - System stored Username
-  - System stored Email
-  - System stored Password
   
  - What the system should do
-   - if \user\ |Presses Submit button| && |Empty String in the username field| ->  the system should output an error message "Empty Username Field not allowed"
-   - if \user\ |Presses Submit button| && |Empty String in the email field| -> the system should output an error message "Empty Email Field not allowed"
-   - if \user\ |Presses Submit button| && |Empty String in the password field| -> the system should output an error message "Empty Password Field not allowed"
+   - if user |Presses Submit button| && |Empty String in the username field| ->  the system should output an error message "Empty Username Field not allowed"
+   - if user |Presses Submit button| && |Empty String in the email field| -> the system should output an error message "Empty Email Field not allowed"
+   - if user |Presses Submit button| && |Empty String in the password field| -> the system should output an error message "Empty Password Field not allowed"
  
-   - if \user\ |Presses Submit button| && |String in Username field has incorrect format| -> the system should output an error message "Incorrect Username Format {suggest format}"
-   - if \user\ |Presses Submit button| && |String in Email field has incorrect format| -> the system should output an error message "Incorrect Email Format {suggest format}"
-   - if \user\ |Presses Submit button| && |String in Password field has incorrect format| -> the system should output an error message "Incorrect Passsord Format {suggest format}"
+   - if user |Presses Submit button| && |String in Username field has incorrect format| -> the system should output an error message "Incorrect Username Format {suggest format}"
+   - if user |Presses Submit button| && |String in Email field has incorrect format| -> the system should output an error message "Incorrect Email Format {suggest format}"
+   - if user |Presses Submit button| && |String in Password field has incorrect format| -> the system should output an error message "Incorrect Passsord Format {suggest format}"
    
-   - if \user\ |Presses Submit button| && |String in Username field has code| -> the system should output an error message "Incorrect Username Format {suggest format}"
-   - if \user\ |Presses Submit button| && |String in Email field has code| -> the system should output an error message "Incorrect Email Format {suggest format}"
-   - if \user\ |Presses Submit button| && |String in Password field has code| -> the system should output an error message "Incorrect Password Format {suggest format}"
-
+   - if user |Presses Submit button| && |String in Username field has code| -> the system should output an error message "Incorrect Username Format {suggest format}"
+   - if user |Presses Submit button| && |String in Email field has code| -> the system should output an error message "Incorrect Email Format {suggest format}"
+   - if user |Presses Submit button| && |String in Password field has code| -> the system should output an error message "Incorrect Password Format {suggest format}"
 
 # Submitting to github
 
