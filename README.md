@@ -12,13 +12,11 @@ https://discord.gg/ZzkYPaaa
 ```
 
 ## Project Owners :
-| Name | Avatar | Contact Info |
 | :-----:  | :-----: | :-----: | 
 | **John Bustard** | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/johnbustard-avatar.png) | {Email} |
 | **Maksim Lozovskii** | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/maksim-lozovskii-avatar.png) | {Email} |
 
 ## Top contributors :
-| Name | Avatar | Contact Info |
 | :-----:  | :-----: | :-----: | 
 | |  | {Email} |
 |  |  | {Email} |
@@ -120,34 +118,19 @@ In order to start a ticket, head over to the issues tab of the repository, and h
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/Labels.png?raw=true)
 
-The development process revolves around the project kanban board in which the people responsible for the ticket move it around different stages, this way other people can see the progress.
-The kanban board for the project can be accessed via the project tab -> projects (classic) -> "name of the board"
-
-![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/project.png?raw=true)
-
-There you will see multiple tabs, which correspond to the labels that were discussed earlier, when a new ticket is released, it automatically goes into the not started column and has a label "not started", this is an available ticket.
-
 As the ticket development progresses, the ticket moves from:
 **not started -> in development -> -> Awaiting UI review -> in development -> Awaiting code review -> beta testing -> Released and monitored**
-The "bugs present" column is primarily used as a way for senior members to show that there are bugs present in the code that they reviewed.
-
-![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/kanban-board.png?raw=true)
+The "bugs present" is used as a way for senior members to show that there are bugs present in the code that they reviewed.
 
 ### First steps
 
-Go to the "Issues" tab and find a ticket to do, for example here is one which was just created and can be taken:
-{EXAMPLE IMAGE}
+1) Go to the "Issues" tab and find a ticket to do, for example here is one which was just created and can be taken:
 
-Click on the ticket and under the assignees tab click on your github profile, this way you will assign yourself to the ticket;
-{EXAMPLE IMAGE}
+2) Click on the ticket and under the assignees tab click on your github profile, this way you will assign yourself to the ticket;
 
-Then, under the "Labels" select the "In development" label and delete the "Not started" label. This way you will tell everyone that you have taken the ticken;
-
-Then, go the the project tab -> projects (classic) -> Human Instructions and drag your ticket to the "In development" column;
-{EXAMPLE IMAGE}
+3) Under the "Labels" select the "In development" label and delete the "Not started" label. This way you will tell everyone that you have taken the ticken;
 
 Now you can start preparing the files and the development environment;
-
 
 **File structure**
 CREATE a folder in a convinient place on your computer and give it the name of the ticket (ticket name is before the ": Implement Human Instruction" in the issues tab), I made one on my desktop
@@ -330,7 +313,7 @@ _The "ticket name" in this case will be the name of the branch_
 
 # Planning the UI
 
-For mocking up the UI aspect, we suggest using an application such as Figma or Adobe XD
+For mocking up the UI aspect, we suggest using an application such as Figma
 For the purpose of this guide, we will be using figma as its free to use.
 
 The purpose of creating the UI portion of the application first, is to show how the user will interact with the system and how the system will behave
@@ -395,10 +378,6 @@ Pre Made UI Components
 }
 ```
 
-- Header and footer code
-```
-
-```
 
 # Coding up the solution
 
@@ -412,15 +391,7 @@ code .
 
 This will launch vs code and open this folder as the project
 
-
-## Frontend Code
-
-BEM - **Block Element Modifier** is a practise for naming, designing and orgranising the elements on HTML / CSS pages for better readability and scalability.
-
-More information on how to use BEM:
-https://sparkbox.com/foundry/bem_by_example
-
-## Backend Code
+## Running a development environment
 
 **Running a development server**
 
@@ -446,29 +417,38 @@ This is what a coder's nightmare looks like 😄😄😄
 
 Best coding practises are essential to maintain code clarity
 
-- Name functions like you are telling them to do something:
+# For Frontend
+BEM - **Block Element Modifier** is a practise for naming, designing and orgranising the elements on HTML / CSS pages for better readability and scalability.
 
+More information on how to use BEM:
+https://sparkbox.com/foundry/bem_by_example
+
+
+# For Backend
+- Name functions like you are telling them to do something:
 ```
 ✅
 def getLoginDetails():
 def downloadUsernameFile():
 def calculateChange():
-
+```
+- Don't use symbols or undescriptive words:
+```
 ❌
 def x():                  -> Don't use letters to name functions
 def ./,⍻⍻123():          -> Don't use numbers / emojis / symbols to name functions (will not work)
 def download():           -> Function names should be descriptive
 def DownloadUsername()    -> Functions can't start with a capital letter
 ```
-
 - Create variable names to describe their content
-
 ```
 ✅
 inputUsername = "Bob"
-valueX = 12
-valueY = valueX  * valueX     -> Try to avoid hardcoding a number into a variable as the answer of a calculation or event result
-
+XaxisVal = 12
+YaxisVal = XaxisVal * 2
+```
+- Don't use symbols or undescriptive words
+```
 ❌
 x = 123
 someNumber = 456
@@ -477,18 +457,6 @@ ValueX = 123
 VALUEX = 123
 vALUEX = 123
 ```
-
-**Add comments, but be mindful about them**
-
-Overkill 🤨
-
-![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/comment-overkill.png)
-
-Just right 🤩
-
-![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/comment-just-right.png)
-
-The comments should describe the logic of the file, even if you delete the code, this way other developers who may not be very skilled programmers will understand the logic of the application
 
 **TESTING WITH SELENIUM**
 
@@ -501,9 +469,10 @@ The comments should describe the logic of the file, even if you delete the code,
 https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ
 
 
-# Making your own tickets
+# Creating your own tickets
 
-This can be done via the human-instruction-suggestion channel on discord
-- Ticket overview (couple of paragraphs)
-- User-system events (will be used later for design)
-- System events (will later be used for development)
+In order to create your own ticket, you will need to put forward an idea in the idea section of out discord server, there the senior members will be able to review your ticket idea.
+In order to put forward your ticket idea, create a new thread with "your username : ticket name" in the github ticket idea chat. The thread must contain the following information in bullet points: 
+- Ticket overview : Gives a basic idea of what the ticket is - a feature / bug fix / feature improvement
+- Who will be involved in the process apart from the reviewing team : For example if the ticket is a bug fix or feature improvement, you will have to specify the original developer of the ticket that you want to fix or improve, if you don't know who was responsible for that ticket, just put the down "creator" and the name of the ticket as they will need to grant you access and/or give information on the ticket. If the ticket is done solely by you, just put down your nickname.
+- Initial design mockups (if applicable) : Could just be a rough sketch in paint - this is just to give us an overview of what this could look like
