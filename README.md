@@ -12,18 +12,18 @@ https://discord.gg/ZzkYPaaa
 ```
 
 ## Project Owners :
+| Name  | Avatar | Email | 
 | :-----:  | :-----: | :-----: | 
 | **John Bustard** | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/johnbustard-avatar.png) | {Email} |
 | **Maksim Lozovskii** | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/maksim-lozovskii-avatar.png) | {Email} |
 
 ## Top contributors :
-| :-----:  | :-----: | :-----: | 
-| |  | {Email} |
-|  |  | {Email} |
+| Name  | Avatar | 
+| :-----:  | :-----: |
+| | |
+| | | 
 
 # **TO ADD TO README**
-- Boilerplate files and/or code 
-- Test files
 - UI example files in figma
 
 - A video guide on how to use their project management system 
@@ -58,30 +58,21 @@ Planning the UI
 
 - ✅ Your UI was approved - you can start coding
 - OR
-- ❌ Yout UI was not approved, you need to fix it
+- ❌ Yout UI was not approved, fix it using comments recieved
 
 
 Coding up the solution
 - ✅ Read about the best coding practises and naming conventions
+- ✅ Run a development server for the solution on your local machine 
 - ✅ Code up the solution on your local machine
-- ✅ Run a develeopment server for the solution on your local machine 
 - ✅ Test your solution with selenium
 - ✅ Submit your solution to your branch
-- ✅ Move your ticket from in development to awaiting code review
+- ✅ Change your ticket from "in development" to "awaiting code review"
 - ✅ Wait for review
-
 
 - ✅ Your code was approved and is now being integrated
 - OR
 - ❌ Yout code was not approved, you need to fix it
-
-**Additional**
-
-How to make your own tickets
-
-- ✅ Ticket overview
-- ✅ User-system events
-- ✅ System events
 
 ---
 
@@ -120,14 +111,11 @@ In order to start a ticket, head over to the issues tab of the repository, and h
 
 As the ticket development progresses, the ticket moves from:
 **not started -> in development -> -> Awaiting UI review -> in development -> Awaiting code review -> beta testing -> Released and monitored**
-The "bugs present" is used as a way for senior members to show that there are bugs present in the code that they reviewed.
 
 ### First steps
 
 1) Go to the "Issues" tab and find a ticket to do, for example here is one which was just created and can be taken:
-
 2) Click on the ticket and under the assignees tab click on your github profile, this way you will assign yourself to the ticket;
-
 3) Under the "Labels" select the "In development" label and delete the "Not started" label. This way you will tell everyone that you have taken the ticken;
 
 Now you can start preparing the files and the development environment;
@@ -361,23 +349,22 @@ Page colour scheme
 
 Page font - Roboto Slab
 
-```css
+```html
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+<h1> h </h1>
 ```
 
-Pre Made UI Components
-- Nullifying styles (put at the top of every CSS file)
+Nullifying styles (put at the top of every CSS file)
 
-```
+```css
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 ```
-
 
 # Coding up the solution
 
