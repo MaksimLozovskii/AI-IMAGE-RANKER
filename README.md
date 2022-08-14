@@ -96,9 +96,9 @@ Get the following:
 | Python | https://www.python.org/downloads/ | https://www.youtube.com/watch?v=i-MuSAwgwCU | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/python-icon.png) |
 
 
-# Ticket lifecycle or how to start a ticket
+# Human instruction lifecycle 
 
-Head over to the issues tab of the repository, and have a look over the tickets, when choosing a ticket, make sure to take into account the following:
+Head over to the issues tab of the repository, and have a look over the issues, when choosing a ticket, make sure to take into account the following:
 - **Is the ticket complete?** The tickets with a green cicrle beside them are not yet complete
 - **Can I start this ticket?** You will see a user's avatar beside the ticket if it is assigned to someone else, you cannot assign yourself to a ticket without permission if it has already been started
 - **At what stage is this ticket?** There are 7 labels resembling progress at the moment: 
@@ -317,15 +317,17 @@ This is what a coder's nightmare looks like 😄😄😄
 
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/emoji-nightmare.jpg)
 
+
+# Useful Tips
  
-# For Frontend
+## For Frontend
 BEM - **Block Element Modifier** is a practise for naming, designing and orgranising the elements on HTML / CSS pages for better readability and scalability.
 
 How to use BEM:
 https://sparkbox.com/foundry/bem_by_example
 
 
-# For Backend
+## For Backend
 - Name functions like you are telling them to do something:
 ```
 ✅
