@@ -23,28 +23,18 @@ https://discord.gg/ZzkYPaaa
 | | |
 | | | 
 
-Colour scheme
-| Hex | Sample | Use case |
-| :-----: | :-----: | :-----: | 
-| #3BBA9C | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233bba9c.png) | Main Titles (h1) and buttons (button) |
-| #2E3047 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%232e3047.png) | Main Background (html, body)|
-| #3C3F58 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233c3f58.png) | Container Background |
-| #707793 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%23707793.png) | For footer text |
-
-Font - Roboto Slab
-
-```html
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-```
-
-# Overview
+# Do this first
 
 Getting the right tools
 - ✅ Download VS code
 - ✅ Download Git Bash
 - ✅ Download Python
+
+| Tool Name | Download Link  | Visual Guide | Icon  |
+| :------ | :-----:  | :-----: | :-----: |  
+| VsCode | https://code.visualstudio.com/download | https://www.youtube.com/watch?v=MlIzFUI1QGA | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/vscode-icon.jpg)  |
+| GitBash | https://git-scm.com/downloads | https://www.youtube.com/watch?v=pIbxvTsjqLw  | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/gitbash-icon.jpg) |
+| Python | https://www.python.org/downloads/ | https://www.youtube.com/watch?v=i-MuSAwgwCU | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/python-icon.png) |
 
 
 Ticket lifecycle or how to start a ticket
@@ -89,11 +79,6 @@ Coding up the solution
 
 Get the following:
 
-| Tool Name | Download Link  | Visual Guide | Icon  |
-| :------ | :-----:  | :-----: | :-----: |  
-| VsCode | https://code.visualstudio.com/download | https://www.youtube.com/watch?v=MlIzFUI1QGA | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/vscode-icon.jpg)  |
-| GitBash | https://git-scm.com/downloads | https://www.youtube.com/watch?v=pIbxvTsjqLw  | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/gitbash-icon.jpg) |
-| Python | https://www.python.org/downloads/ | https://www.youtube.com/watch?v=i-MuSAwgwCU | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/python-icon.png) |
 
 
 # Human instruction lifecycle 
@@ -360,3 +345,21 @@ vALUEX = 123
 Selenium basics, watch all:
 
 https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ
+
+# Project Resources
+
+Colour scheme
+| Hex | Sample | Use case |
+| :-----: | :-----: | :-----: | 
+| #3BBA9C | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233bba9c.png) | Main Titles (h1) and buttons (button) |
+| #2E3047 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%232e3047.png) | Main Background (html, body)|
+| #3C3F58 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233c3f58.png) | Container Background |
+| #707793 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%23707793.png) | For footer text |
+
+Font - Roboto Slab
+
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+```
