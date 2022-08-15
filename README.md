@@ -64,6 +64,7 @@ permission if it has already been started
   - **Beta testing** - meaning the ticket is currenly being tested in a controlled environemnt by other members of the repository, this is the last stage before release.
 
 As the ticket development progresses, the ticket moves from:
+
 **not started -> in development -> Awaiting UI review -> in development -> Awaiting code review -> beta testing -> Released and monitored**
 
 
