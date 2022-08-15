@@ -49,30 +49,32 @@ permission if it has already been started
 
 3️⃣ **At what stage is this ticket?** There are 7 labels resembling progress at the moment: 
 
-  - **Not started** - meaning the ticket has not yet been started and is not assigned to anyone, you can take this ticket if you want; 
-
   - **In development** - meaning the ticket is currently been developed by one or multiple members of the repository, you cannot work on this ticket unless the people assigned to it allow you to join;
 
-  - **Awaiting UI review** - meaning the UI plan produced for the ticket is currently awaiting review from a senior member
+  - **Awaiting UI Review** - meaning the UI plan produced for the ticket is currently awaiting review from a senior member
 
-  - **Awaiting code review** - meaning the code produced for the ticket is currently awaiting code review from a senior member; 
-
-  - **Bugs present** - meaning the code that was reviewed has issues that need to be resolved in order for the code to be placed in a demo system; 
+  - **Awaiting Code Review** - meaning the code produced for the ticket is currently awaiting code review from a senior member; 
+  
+  - **Awaiting General Review** - meaning that general milestones of the tickets need to be looked at;
+  
+  - **Issues present** - meaning the code that was reviewed has issues that need to be resolved in order for the code to be placed in a demo system; 
 
   - **Help wanted** - usually comes alongside other labels, means that the person/people assigned to this ticket is/are not able to complete the ticket on their own; 
 
-  - **Beta testing** - meaning the ticket is currenly being tested in a controlled environemnt by other members of the repository, this is the last stage before release.
+  - **In Testing** - meaning the ticket is currenly being tested in a controlled environemnt by other members of the repository, this is the last stage before release.
 
 As the ticket development progresses, the ticket moves from:
 
 **not started -> in development -> Awaiting UI review -> in development -> Awaiting code review -> beta testing -> Released and monitored**
+
+**Awaiting General Review** can be added for steps unrelated with development
 
 
 ## ✅ Start a ticket
 
 1) Go to the "Issues" tab and find a ticket to do, for example here is one which was just created and can be taken:
 2) Click on the ticket and under the assignees tab click on your github profile, this way you will assign yourself to the ticket;
-3) Under the "Labels" select the "In development" label and delete the "Not started" label. This way you will tell everyone that you have taken the ticket
+3) Under the "Labels" select the "In development" label. This way you will tell everyone that you have taken the ticket
 
 ## ✅ Create project folder on local machine with the name of your ticket
 
