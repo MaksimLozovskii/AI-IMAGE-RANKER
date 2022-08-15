@@ -69,7 +69,7 @@ As the ticket development progresses, the ticket moves from:
 
 ## ✅ Create project folder on local machine with the name of your ticket
 
-CREATE a folder in a convinient place on your computer and give it the name of the ticket (ticket name is before the ": Implement Human Instruction" in the issues tab)
+CREATE a folder in a convinient place on your computer and give it the name of the ticket
 
 OPEN the folder, right click inside it and click on "Git Bash Here"
 
@@ -77,7 +77,6 @@ OPEN the folder, right click inside it and click on "Git Bash Here"
 ```
 git init; 
 git remote add origin https://github.com/MaksimLozovskii/QLabHumanProgram; 
-touch README.md;
 
 mkdir design-files; 
 cd design-files;
@@ -85,7 +84,6 @@ mkdir visual-design-files-go-here;
 cd ..;
 mkdir instruction-files; 
 cd instruction-files;
-touch app.py;
 mkdir templates;
 mkdir static;
 cd static;
@@ -110,11 +108,9 @@ You should have the following structure
  ┃ ┃ ┣ 📂img
  ┃ ┃ ┣ 📂scripts
  ┃ ┃ ┗ 📂styles
- ┃ ┣ 📂templates
- ┃ ┗ 📜app.py
- ┣ 📂test-scripts
- ┃ ┗ 📂test-plan-docs-go-here
- ┗ 📜README.md
+ ┃ ┗ 📂templates
+ ┗ 📂test-scripts
+   ┗ 📂test-plan-docs-go-here
 ```
 
 ## ✅ Edit the test-template
