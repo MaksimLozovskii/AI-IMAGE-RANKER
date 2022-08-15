@@ -23,8 +23,9 @@ https://discord.gg/ZzkYPaaa
 | | |
 | | | 
 
+# Start here
 
-# Start Here
+---
 
 ## ✅ Download and install VS code
 ## ✅ Download and install Git Bash
@@ -190,8 +191,6 @@ _The "ticket name" in this case will be the name of the branch_
 
 
 ## ✅ Mark out user interaction with the UI in figma
-
-To start off:
 
 ### 1️⃣ Make the base layout using the following project resources
 
