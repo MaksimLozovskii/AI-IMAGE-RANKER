@@ -41,9 +41,9 @@ https://discord.gg/ZzkYPaaa
 ## ✅ Read ticket lifecycle information
  
 Head over to the issues tab of the repository, and have a look over the issues, when choosing a ticket, make sure to take into account the following:
-- **Is the ticket complete?** The tickets with a green cicrle beside them are not yet complete
-- **Can I start this ticket?** You will see a user's avatar beside the ticket if it is assigned to someone else, you cannot assign yourself to a ticket without permission if it has already been started
-- **At what stage is this ticket?** There are 7 labels resembling progress at the moment: 
+1️⃣ **Is the ticket complete?** The tickets with a green cicrle beside them are not yet complete
+2️⃣ **Can I start this ticket?** You will see a user's avatar beside the ticket if it is assigned to someone else, you cannot assign yourself to a ticket without permission if it has already been started
+3️⃣ **At what stage is this ticket?** There are 7 labels resembling progress at the moment: 
   - **Not started** - meaning the ticket has not yet been started and is not assigned to anyone, you can take this ticket if you want; 
 
   - **In development** - meaning the ticket is currently been developed by one or multiple members of the repository, you cannot work on this ticket unless the people assigned to it allow you to join;
