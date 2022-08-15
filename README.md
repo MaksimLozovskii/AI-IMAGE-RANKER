@@ -23,12 +23,13 @@ https://discord.gg/ZzkYPaaa
 | | |
 | | | 
 
-# Do this first
+
+# Start Here
 
 Getting the right tools
-- ✅ Download VS code
-- ✅ Download Git Bash
-- ✅ Download Python
+- #✅ Download VS code
+- #✅ Download Git Bash
+- #✅ Download Python
 
 | Tool Name | Download Link  | Visual Guide | Icon  |
 | :------ | :-----:  | :-----: | :-----: |  
@@ -37,52 +38,8 @@ Getting the right tools
 | Python | https://www.python.org/downloads/ | https://www.youtube.com/watch?v=i-MuSAwgwCU | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/python-icon.png) |
 
 
-Ticket lifecycle or how to start a ticket
-- ✅ Read about ticket lifecycle
-- ✅ Start a ticket
-- ✅ Create project folder on local machine with the name of your ticket
-- ✅ Download the test-template
-- ✅ Rename the test tempalte to the name of your ticket
-- ✅ Place the test template in the correct folder
-- ✅ Submit the files to your github branch
-
-
-Planning the UI
-- ✅ Mark out user interaction with the UI in figma
-- ✅ Save files as PNG or JPG/JPEG in the appropriate folder
-- ✅ Upload the files unto your github branch
-- ✅ Move your ticker from in development to awaiting UI review
-- ✅ Wait for review
-
-
-- ✅ Your UI was approved - you can start coding
-- OR
-- ❌ Yout UI was not approved, fix it using comments recieved
-
-
-Coding up the solution
-- ✅ Read about the best coding practises and naming conventions
-- ✅ Run a development server for the solution on your local machine 
-- ✅ Code up the solution on your local machine
-- ✅ Test your solution with selenium
-- ✅ Submit your solution to your branch
-- ✅ Change your ticket from "in development" to "awaiting code review"
-- ✅ Wait for review
-
-- ✅ Your code was approved and is now being integrated
-- OR
-- ❌ Yout code was not approved, you need to fix it
-
----
-
-# Getting the right tools
-
-Get the following:
-
-
-
-# Human instruction lifecycle 
-
+- #✅ Read ticket lifecycle information
+ 
 Head over to the issues tab of the repository, and have a look over the issues, when choosing a ticket, make sure to take into account the following:
 - **Is the ticket complete?** The tickets with a green cicrle beside them are not yet complete
 - **Can I start this ticket?** You will see a user's avatar beside the ticket if it is assigned to someone else, you cannot assign yourself to a ticket without permission if it has already been started
@@ -104,15 +61,16 @@ Head over to the issues tab of the repository, and have a look over the issues, 
 As the ticket development progresses, the ticket moves from:
 **not started -> in development -> Awaiting UI review -> in development -> Awaiting code review -> beta testing -> Released and monitored**
 
-# First steps
+
+
+- #✅ Start a ticket
 
 1) Go to the "Issues" tab and find a ticket to do, for example here is one which was just created and can be taken:
 2) Click on the ticket and under the assignees tab click on your github profile, this way you will assign yourself to the ticket;
-3) Under the "Labels" select the "In development" label and delete the "Not started" label. This way you will tell everyone that you have taken the ticken;
+3) Under the "Labels" select the "In development" label and delete the "Not started" label. This way you will tell everyone that you have taken the ticket
 
-Now you can start preparing the files and the development environment;
+- #✅ Create project folder on local machine with the name of your ticket
 
-**File structure**
 CREATE a folder in a convinient place on your computer and give it the name of the ticket (ticket name is before the ": Implement Human Instruction" in the issues tab)
 
 OPEN the folder, right click inside it and click on "Git Bash Here"
@@ -179,7 +137,8 @@ Change "ticket name" to the name of the ticket you assigned yourself
 
 Change "change to your name" to the your github nickname
 
-# TEST TEMPLATE STRUCTURE
+
+- #✅ Edit the test-template
 
 **For Single Events**
 
@@ -196,8 +155,7 @@ if {user} |action / event| && |action / event | && n -> system should ___"
    - if user |Presses Submit button| && |Empty String in the email field| -> the system should output an error message "Empty Email Field not allowed"
    - if user |Presses Submit button| && |Empty String in the password field| -> the system should output an error message "Empty Password Field not allowed"
 
-
-# Submitting to github
+- #✅ Submit the initial files to your github branch
 
 **Create a new branch to keep your code separate from others**
 ```
@@ -256,20 +214,29 @@ _The "ticket name" in this case will be the name of the branch_
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/your-repo.png?raw=true)
 
 
-# Planning the UI
-
-For mocking up the UI aspect, we suggest using an application such as Figma
-For the purpose of this guide, we will be using figma as its free to use.
-
-The purpose of creating the UI portion of the application first, is to show how the user will interact with the system and how the system will behave
-This way, we know exactly what should happen on the front end, if any other unexpected events happen, this will be flagged as a software issue.
-
-**Event based UI creation**
+- #✅ Mark out user interaction with the UI in figma
 
 To start off:
 
+- ✅ Make the base layout using the following project resources
 
-- ✅ Make the base layout
+Colour scheme
+| Hex | Sample | Use case |
+| :-----: | :-----: | :-----: | 
+| #3BBA9C | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233bba9c.png) | Main Titles (h1) and buttons (button) |
+| #2E3047 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%232e3047.png) | Main Background (html, body)|
+| #3C3F58 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233c3f58.png) | Container Background |
+| #707793 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%23707793.png) | For footer text |
+
+Font - Roboto Slab
+
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+```
+
+
 - ✅ Copy the base layout onto a new page or a different place 2 times (so you have the before and after)
 - ✅ Lay out a user-system event (where the user interacts with the system, such as presses a button and the system does something, such as prints out a message)
 - ✅ Submit for a review
@@ -280,31 +247,18 @@ For example
 
 __PNG or JPEG(JPG) ONLY__
 
-# Coding up the solution
 
-## Running a development environment
+-#✅ Upload the files unto your github branch
+- ✅ Change your ticket from "in development" to "Awaiting UI review"
+- ✅ Wait for review
 
-To run your flask application, open gitbash inside the folder where the app.py file is, and type in the following command
-
-```bash
-FLASK_APP=app.py FLASK_ENV=development flask run --port 8080
-```
-
-The website can viewed in the browser by typing in
-
-```
-localhost:8080
-```
-
-**Best coding practises**
-
-This is what a coder's nightmare looks like 😄😄😄
-
-![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/emoji-nightmare.jpg)
+- ✅ Your UI was approved - you can start coding
+- OR
+- ❌ Yout UI was not approved, fix it using comments recieved
 
 
-# Useful Tips
- 
+- #✅ Read about the best coding practises and naming conventions
+
 ## For Frontend
 BEM - **Block Element Modifier** is a practise for naming, designing and orgranising the elements on HTML / CSS pages for better readability and scalability.
 
@@ -340,26 +294,37 @@ someNumber = 456
 vALUEX = 123
 ```
 
+- #✅ Run a development server for the solution on your local machine 
+
+To run your flask application, open gitbash inside the folder where the app.py file is, and type in the following command
+
+```bash
+FLASK_APP=app.py FLASK_ENV=development flask run --port 8080
+```
+
+The website can viewed in the browser by typing in
+
+```
+localhost:8080
+```
+
+- #✅ Code up the solution on your local machine
+- #✅ Test your solution with selenium
+
+
 # TESTING WITH SELENIUM
 
 Selenium basics, watch all:
 
 https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ
 
-# Project Resources
 
-Colour scheme
-| Hex | Sample | Use case |
-| :-----: | :-----: | :-----: | 
-| #3BBA9C | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233bba9c.png) | Main Titles (h1) and buttons (button) |
-| #2E3047 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%232e3047.png) | Main Background (html, body)|
-| #3C3F58 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%233c3f58.png) | Container Background |
-| #707793 | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/%23707793.png) | For footer text |
+- #✅ Submit your solution to your branch
+- #✅ Change your ticket from "in development" to "awaiting code review"
+- #✅ Wait for review
 
-Font - Roboto Slab
+- ✅ Your code was approved and is now being integrated
+- OR
+- ❌ Yout code was not approved, you need to fix it
 
-```html
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-```
+---
