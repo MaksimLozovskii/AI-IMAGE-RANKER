@@ -26,10 +26,9 @@ https://discord.gg/ZzkYPaaa
 
 # Start Here
 
-Getting the right tools
-- #✅ Download VS code
-- #✅ Download Git Bash
-- #✅ Download Python
+# ✅ Download VS code
+# ✅ Download Git Bash
+# ✅ Download Python
 
 | Tool Name | Download Link  | Visual Guide | Icon  |
 | :------ | :-----:  | :-----: | :-----: |  
@@ -38,7 +37,7 @@ Getting the right tools
 | Python | https://www.python.org/downloads/ | https://www.youtube.com/watch?v=i-MuSAwgwCU | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/python-icon.png) |
 
 
-- #✅ Read ticket lifecycle information
+# ✅ Read ticket lifecycle information
  
 Head over to the issues tab of the repository, and have a look over the issues, when choosing a ticket, make sure to take into account the following:
 - **Is the ticket complete?** The tickets with a green cicrle beside them are not yet complete
@@ -62,14 +61,13 @@ As the ticket development progresses, the ticket moves from:
 **not started -> in development -> Awaiting UI review -> in development -> Awaiting code review -> beta testing -> Released and monitored**
 
 
-
-- #✅ Start a ticket
+# ✅ Start a ticket
 
 1) Go to the "Issues" tab and find a ticket to do, for example here is one which was just created and can be taken:
 2) Click on the ticket and under the assignees tab click on your github profile, this way you will assign yourself to the ticket;
 3) Under the "Labels" select the "In development" label and delete the "Not started" label. This way you will tell everyone that you have taken the ticket
 
-- #✅ Create project folder on local machine with the name of your ticket
+# ✅ Create project folder on local machine with the name of your ticket
 
 CREATE a folder in a convinient place on your computer and give it the name of the ticket (ticket name is before the ": Implement Human Instruction" in the issues tab)
 
@@ -138,7 +136,7 @@ Change "ticket name" to the name of the ticket you assigned yourself
 Change "change to your name" to the your github nickname
 
 
-- #✅ Edit the test-template
+# ✅ Edit the test-template
 
 **For Single Events**
 
@@ -155,7 +153,7 @@ if {user} |action / event| && |action / event | && n -> system should ___"
    - if user |Presses Submit button| && |Empty String in the email field| -> the system should output an error message "Empty Email Field not allowed"
    - if user |Presses Submit button| && |Empty String in the password field| -> the system should output an error message "Empty Password Field not allowed"
 
-- #✅ Submit the initial files to your github branch
+# ✅ Submit the initial files to your github branch
 
 **Create a new branch to keep your code separate from others**
 ```
@@ -214,7 +212,7 @@ _The "ticket name" in this case will be the name of the branch_
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/your-repo.png?raw=true)
 
 
-- #✅ Mark out user interaction with the UI in figma
+# ✅ Mark out user interaction with the UI in figma
 
 To start off:
 
@@ -248,7 +246,7 @@ For example
 __PNG or JPEG(JPG) ONLY__
 
 
--#✅ Upload the files unto your github branch
+# ✅ Upload the files unto your github branch
 - ✅ Change your ticket from "in development" to "Awaiting UI review"
 - ✅ Wait for review
 
@@ -256,17 +254,17 @@ __PNG or JPEG(JPG) ONLY__
 - OR
 - ❌ Yout UI was not approved, fix it using comments recieved
 
+ 
+# ✅ Read about the best coding practises and naming conventions
 
-- #✅ Read about the best coding practises and naming conventions
-
-## For Frontend
+**For Frontend**
 BEM - **Block Element Modifier** is a practise for naming, designing and orgranising the elements on HTML / CSS pages for better readability and scalability.
 
 How to use BEM:
 https://sparkbox.com/foundry/bem_by_example
 
 
-## For Backend
+**For Backend**
 - Name functions like you are telling them to do something:
 ```
 ✅
@@ -294,7 +292,7 @@ someNumber = 456
 vALUEX = 123
 ```
 
-- #✅ Run a development server for the solution on your local machine 
+# ✅ Run a development server for the solution on your local machine 
 
 To run your flask application, open gitbash inside the folder where the app.py file is, and type in the following command
 
@@ -308,20 +306,20 @@ The website can viewed in the browser by typing in
 localhost:8080
 ```
 
-- #✅ Code up the solution on your local machine
-- #✅ Test your solution with selenium
+# ✅ Code up the solution on your local machine
 
-
-# TESTING WITH SELENIUM
+# ✅ Test your solution with selenium
 
 Selenium basics, watch all:
 
 https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ
 
 
-- #✅ Submit your solution to your branch
-- #✅ Change your ticket from "in development" to "awaiting code review"
-- #✅ Wait for review
+# ✅ Submit your solution to your branch
+
+# ✅ Change your ticket from "in development" to "awaiting code review"
+
+# ✅ Wait for review
 
 - ✅ Your code was approved and is now being integrated
 - OR
