@@ -72,9 +72,8 @@ As the ticket development progresses, the ticket moves from:
 CREATE a folder in a convinient place on your computer and give it the name of the ticket (ticket name is before the ": Implement Human Instruction" in the issues tab)
 
 OPEN the folder, right click inside it and click on "Git Bash Here"
-![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/open-gitbash.png?raw=true)
 
-**COMMANDS (copy and paste into git bash and press enter)**
+**Copy and paste the following commands into gitbash**
 ```
 git init; 
 git remote add origin https://github.com/MaksimLozovskii/QLabHumanProgram; 
@@ -117,11 +116,6 @@ You should have the following structure
  ┃ ┗ 📂test-plan-docs-go-here
  ┗ 📜README.md
 ```
-
-Change "ticket name" to the name of the ticket you assigned yourself
-
-Change "change to your name" to the your github nickname
-
 
 ## ✅ Edit the test-template
 
@@ -221,7 +215,6 @@ Font - Roboto Slab
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 ```
 
-
 - 2️⃣ Copy the base layout onto a new page or a different place 2 times (so you have the before and after)
 - 3️⃣ Lay out a user-system event (where the user interacts with the system, such as presses a button and the system does something, such as prints out a message)
 - 4️⃣ Submit for a review
@@ -230,7 +223,7 @@ For example
 
 {IMAGE BEFORE EVENT} -> {IMAGE AFTER EVENT}
 
-❗__PNG or JPEG(JPG) ONLY__❗
+❗❗❗❗_PNG or JPEG(JPG) ONLY_❗❗❗❗
 
 
 ## ✅ Upload the files unto your github branch
@@ -308,5 +301,3 @@ https://www.youtube.com/playlist?list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ
 - ✅ Your code was approved and is now being integrated
 - OR
 - ❌ Yout code was not approved, you need to fix it
-
----
