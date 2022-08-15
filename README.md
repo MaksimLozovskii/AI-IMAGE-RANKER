@@ -197,7 +197,7 @@ _The "ticket name" in this case will be the name of the branch_
 
 To start off:
 
-- 1️⃣ Make the base layout using the following project resources
+### 1️⃣ Make the base layout using the following project resources
 
 Colour scheme
 | Hex | Sample | Use case |
@@ -215,9 +215,9 @@ Font - Roboto Slab
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 ```
 
-- 2️⃣ Copy the base layout onto a new page or a different place 2 times (so you have the before and after)
-- 3️⃣ Lay out a user-system event (where the user interacts with the system, such as presses a button and the system does something, such as prints out a message)
-- 4️⃣ Submit for a review
+### 2️⃣ Copy the base layout onto a new page or a different place 2 times (so you have the before and after)
+### 3️⃣ Lay out a user-system event (where the user interacts with the system, such as presses a button and the system does something, such as prints out a message)
+### 4️⃣ Submit for a review
 
 For example
 
