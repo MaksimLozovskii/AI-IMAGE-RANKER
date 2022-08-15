@@ -82,7 +82,6 @@ touch README.md;
 
 mkdir design-files; 
 cd design-files;
-mkdir user-interaction-files-go-here;
 mkdir visual-design-files-go-here;
 cd ..;
 mkdir instruction-files; 
@@ -106,7 +105,6 @@ You should have the following structure
 ```
 📦ticket_name
  ┣ 📂design-files
- ┃ ┣ 📂User-interaction-files-go-here
  ┃ ┗ 📂Visual-design-files-go-here
  ┣ 📂instruction-files
  ┃ ┣ 📂static
@@ -118,17 +116,6 @@ You should have the following structure
  ┣ 📂test-scripts
  ┃ ┗ 📂test-plan-docs-go-here
  ┗ 📜README.md
-```
-
-![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/folder-structure.png?raw=true)
-
-Now, lets edit your README.md file
-
-**Open README.md with VS code and paste this in:**
-```
-# Branch for "ticket name"
-
-**Assignee - "Change to your name"**
 ```
 
 Change "ticket name" to the name of the ticket you assigned yourself
