@@ -26,11 +26,11 @@ https://discord.gg/ZzkYPaaa
 
 # Start Here
 
-## ✅ Download VS code
-## ✅ Download Git Bash
-## ✅ Download Python
+## ✅ Download and install VS code
+## ✅ Download and install Git Bash
+## ✅ Download and install Python
 
-| Tool Name | Download Link  | Visual Guide | Icon  |
+| Tool Name | Download Link  | How to install | Icon  |
 | :------ | :-----:  | :-----: | :-----: |  
 | VsCode | https://code.visualstudio.com/download | https://www.youtube.com/watch?v=MlIzFUI1QGA | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/vscode-icon.jpg)  |
 | GitBash | https://git-scm.com/downloads | https://www.youtube.com/watch?v=pIbxvTsjqLw  | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/gitbash-icon.jpg) |
@@ -243,7 +243,7 @@ For example
 
 {IMAGE BEFORE EVENT} -> {IMAGE AFTER EVENT}
 
-__PNG or JPEG(JPG) ONLY__
+❗__PNG or JPEG(JPG) ONLY__❗
 
 
 ## ✅ Upload the files unto your github branch
