@@ -205,8 +205,6 @@ Font - Roboto Slab
 ### 2️⃣ Copy the base layout onto a new page or a different place 2 times (so you have the before and after)
 ### 3️⃣ Lay out a user-system event (where the user interacts with the system, such as presses a button and the system does something, such as prints out a message)
 
-❗❗❗❗_PNG or JPEG(JPG) ONLY_❗❗❗❗
-
 For example
 
 {IMAGE BEFORE EVENT} -> {IMAGE AFTER EVENT}
