@@ -27,9 +27,7 @@ https://discord.gg/ZzkYPaaa
 
 ---
 
-## ✅ Download and install VS code
-## ✅ Download and install Git Bash
-## ✅ Download and install Python
+## ✅ Download and install the following
 
 | Tool Name | Download Link  | How to install | Icon  |
 | :------ | :-----:  | :-----: | :-----: |  
