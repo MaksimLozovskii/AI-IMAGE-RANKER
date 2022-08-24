@@ -91,16 +91,6 @@ mkdir design-files;
 cd design-files;
 mkdir visual-design-files-go-here;
 cd ..;
-mkdir instruction-files; 
-cd instruction-files;
-mkdir templates;
-mkdir static;
-cd static;
-mkdir styles;
-mkdir scripts;
-mkdir img;
-cd ..;
-cd ..;
 mkdir tests-scripts; 
 cd tests-scripts;
 mkdir test-plan-docs-go-here;
@@ -112,12 +102,6 @@ You should have the following structure
 📦ticket_name
  ┣ 📂design-files
  ┃ ┗ 📂Visual-design-files-go-here
- ┣ 📂instruction-files
- ┃ ┣ 📂static
- ┃ ┃ ┣ 📂img
- ┃ ┃ ┣ 📂scripts
- ┃ ┃ ┗ 📂styles
- ┃ ┗ 📂templates
  ┗ 📂test-scripts
    ┗ 📂test-plan-docs-go-here
 ```
