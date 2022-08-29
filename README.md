@@ -17,12 +17,6 @@ https://discord.gg/ZzkYPaaa
 | **John Bustard** | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/johnbustard-avatar.png) | {Email} |
 | **Maksim Lozovskii** | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/maksim-lozovskii-avatar.png) | {Email} |
 
-## Top contributors :
-| Name  | Github Avatar | 
-| :-----:  | :-----: |
-| | |
-| | | 
-
 # Start here
 
 ---
