@@ -104,23 +104,6 @@ You should have the following structure
    ┗ 📂test-plan-docs-go-here
 ```
 
-## ✅ Edit the test-template
-
-**For Single Events**
-
-if {user} |action / event| -> system should ___"
-
-**For Multiple events**
-
-if {user} |action / event| && |action / event | && n -> system should ___"
-
-**For example : LOG-IN system : **
-  
- - What the system should do
-   - if user |Presses Submit button| && |Empty String in the username field| ->  the system should output an error message "Empty Username Field not allowed"
-   - if user |Presses Submit button| && |Empty String in the email field| -> the system should output an error message "Empty Email Field not allowed"
-   - if user |Presses Submit button| && |Empty String in the password field| -> the system should output an error message "Empty Password Field not allowed"
-
 ## ✅ Submit the initial files to your github branch
 
 **Create a new branch to keep your code separate from others**
@@ -180,7 +163,7 @@ _The "ticket name" in this case will be the name of the branch_
 ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/your-repo.png?raw=true)
 
 
-## ✅ Mark out user interaction with the UI in figma
+## ✅ CREATE A MOCKUP OF THE USER INTERFACE
 
 ### 1️⃣ Make the base layout using the following project resources
 
@@ -216,7 +199,7 @@ For example
 - ❌ Yout UI was not approved, fix it using comments recieved
 
  
-## ✅ Read about the best coding practises and naming conventions
+## ✅ READ ABOUT THE BEST PRACTISES
 
 **For Frontend**
 BEM - **Block Element Modifier** is a practise for naming, designing and orgranising the elements on HTML / CSS pages for better readability and scalability.
@@ -251,20 +234,6 @@ x = 123
 someNumber = 456
 ⍻ ⍻⍻ ⍻ = "lol"
 vALUEX = 123
-```
-
-## ✅ Run a development server for the solution on your local machine 
-
-To run your flask application, open gitbash inside the folder where the app.py file is, and type in the following command
-
-```bash
-FLASK_APP=app.py FLASK_ENV=development flask run --port 8080
-```
-
-The website can viewed in the browser by typing in
-
-```
-localhost:8080
 ```
 
 ## ✅ Code up the solution on your local machine
