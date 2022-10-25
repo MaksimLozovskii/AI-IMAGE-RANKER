@@ -5,18 +5,6 @@
 # Work less - do more
 ---
 
-**Our project discord**
-
-```
-https://discord.gg/ZzkYPaaa
-```
-
-## Project Owners :
-| Name  | Github Avatar | Email | 
-| :-----:  | :-----: | :-----: | 
-| **John Bustard** | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/johnbustard-avatar.png) | {Email} |
-| **Maksim Lozovskii** | ![alt text](https://github.com/MaksimLozovskii/QLabHumanProgram/blob/md-img/maksim-lozovskii-avatar.png) | {Email} |
-
 # Start here
 
 ---
