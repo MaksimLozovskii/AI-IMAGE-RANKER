@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/indexStyles.css') }}">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="wrapper_mainTitle">
+            <h1 class="mainTitle_text">
+                Image Ranking App
+            </h1>
+        </div>
+
+        <div class="wrapper_rankLink">
+            <a class="rankLink_link" href={{ url }}> Rank images </a>
+        </div>
+    </div>
+</body>
+</html>
